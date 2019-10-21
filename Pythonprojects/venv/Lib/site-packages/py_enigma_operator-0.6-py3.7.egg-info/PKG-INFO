@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: py-enigma-operator
+Version: 0.6
+Summary: Wrapper for py-enigma.
+Home-page: https://github.com/seangilleran/py_enigma_operator
+Author: Sean Gilleran
+Author-email: sgilleran@gmail.com
+License: MIT
+Download-URL: https://github.com/seangilleran/py_enigma_operator/tarball/0.6
+Description: UNKNOWN
+Keywords: enigma,encryption,historical
+Platform: UNKNOWN

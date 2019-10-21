@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+enigma_operator/__init__.py
+enigma_operator/enigma_operator.py
+py_enigma_operator.egg-info/PKG-INFO
+py_enigma_operator.egg-info/SOURCES.txt
+py_enigma_operator.egg-info/dependency_links.txt
+py_enigma_operator.egg-info/requires.txt
+py_enigma_operator.egg-info/top_level.txt

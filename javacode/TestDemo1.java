@@ -337,6 +337,8 @@ class MySignalList {//无头结点单项不循环
             //////////////////////注意///////////////////////////
 
         }
+		
+
 
         //before区间为空
         if(bs==null)
@@ -447,7 +449,7 @@ public ListNode findNode(){
            break;
         }
     }
-    if(fast==null&&fast.next==null){
+    if(fast==null||fast.next==null){
         //没有环
         return null;
     }
@@ -550,14 +552,19 @@ public class TestDemo1 {
                 temp=temp.next;
             }
         }
+		
+		//链表B已经被合并完全，只剩下链表A的一部分，将剩下的直接连接在temp后
         if(headA!=null){
             temp.next=headA;
         }
+		
+		//链表A已经被合并完全，只剩下链表B的一部分，将剩下的直接连接在temp后
         if(headB!=null){
             temp.next=headB;
         }
         return node.next;
     }
+
 
 
     public static ListNode  getIntersectionNode
@@ -641,6 +648,8 @@ public class TestDemo1 {
     }
 
 }
+
+
 
 
 

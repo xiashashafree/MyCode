@@ -1,21 +1,7 @@
-import java.util.Arrays;
+import java.util.*;
 
 public class Test {
 
-
-    //给定一个数组，将数组中的元素向右移动 k 个位置，其中 k 是非负数
-    public static void rotate(int[] nums, int k) {
-        if (k < 0) {
-            return;
-        }
-        int[] newNums = new int[nums.length + k];
-        for (int i = 0; i < nums.length; i++) {
-
-            newNums[i + k] = nums[i];
-        }
-        nums = newNums;
-
-    }
 
 
     public static String toLowerCase(String str) {
@@ -68,13 +54,7 @@ public class Test {
 //        return 0;
 //}
 
-    public static int lengthOfLastWord(String s) {
-        int index = s.lastIndexOf(" ");
-        if (index == s.length() - 1) {
 
-        }
-        return 0;
-    }
 
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         if (nums1.length < m + n) {
@@ -118,36 +98,12 @@ public class Test {
 
     private int m = 0;
 
-    public static void main(String[] args) {
-//        long rt=10L;
-//        Test t=new Test();
-//        t.m=0;
-//        char ch=(char)'a'-32;
-//        System.out.println(ch);
-//
-//        System.out.println(isPalindrome(167));
-//        int[]  a={3,2,1,2,3};
-//        for (int i = 0; i <a.length ; i++) {
-//            System.out.print(a[i]+"  ");
-//
-//        }
-//        int [] A={1,2,3};
-//       Arrays.sort(A);
-////        int[] B=Arrays.copyOf(A,A.length);
-//        for (int i = 0; i < A.length; i++) {
-//            System.out.println(A[i]);
-//
-//        }
-////        System.out.println(A);
-////        System.out.println(reverseOnlyLetters("aff_c_de"));
-////        System.out.println(5%3);
-
-//        System.out.println(isPalindrome("12q,Q21"));
-        myAtoi(" q 123");
-    }
 
     public static int myAtoi(String str) {
-
+        str=str.replace(" ","");
+        if(!Character.isDigit(str.charAt(0))&&str.charAt(0)!='-'){
+            return 0;
+        }
         char [] ch=str.toCharArray();
         char [] nums=new char[ch.length];
         int index=0;
@@ -155,7 +111,7 @@ public class Test {
             if(Character.isDigit(ch[i])||ch[i]=='-'){
                 nums[index++]=ch[i];
             }else{
-                return 0;
+                break;
             }
 
 
@@ -169,7 +125,12 @@ public class Test {
         if(nums[0]=='-'){
             sum=-sum;
         }
-        System.out.println(sum);
+           if(sum<Integer.MIN_VALUE){
+            return Integer.MIN_VALUE;
+           }
+           if (sum>Integer.MAX_VALUE){
+            return Integer.MAX_VALUE;
+           }
         return sum;
 
 
@@ -258,5 +219,59 @@ public class Test {
  System.out.println(sum);
  return sum;
  }*/
+
+//返回第三大数
+public static int gg(int[]  nums){
+
+    Arrays.sort(nums);
+    if(nums.length<3){
+        return nums[nums.length-1];
+    }
+    Set<Integer> set=new HashSet<>();
+    for (int i = nums.length-1; i >=0 ; i--) {
+        set.add(nums[i]);
+        if(set.size()==3){
+            nums[nums.length-1]=nums[i];
+            break;
+        }
+    }
+    return nums[nums.length-1];
+
+}
+    public static int dd(int a){
+        int sum=0;
+        int count=0;
+        while(a!=0){
+            sum=(int)(sum+(a%10)*Math.pow(2,count++));
+            a=a/10;
+        }
+        return sum;
+    }
+    public static String  addBinary(String a, String b) {
+             int a1=dd(Integer.parseInt(a));
+             int b1=dd(Integer.parseInt(b));
+             int c=a1+b1;
+             StringBuilder sb=new StringBuilder();
+             if(c==0){
+                 return sb.append(c).toString();
+             }
+             while(c!=0){
+
+                 sb.append(c%2);
+                 c=c/2;
+             }
+
+             sb=sb.reverse();
+             return sb.toString();
+    }
+    public static void main(String[] args) {
+//      int[] nums={5,7,6,8,8,9};
+//      gg(nums);
+//
+//        System.out.println( addBinary("11","01"));
+        System.out.println('1'-'0');
+
+
+    }
 
 }

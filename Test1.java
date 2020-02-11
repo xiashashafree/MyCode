@@ -155,12 +155,7 @@ public class Test1 {
         return s.length();
     }
 
-    public static int myAtoi(String str) {
-        str = str.replace(" ", "");
 
-
-        return 0;
-    }
 
     public static int findUnsortedSubarray(int[] nums) {
         if (nums.length == 1) {
@@ -279,11 +274,152 @@ public class Test1 {
 
 
     }
-    public static void main(String[] args) {
+    //原地压缩字符串
+    public static int wwcompress(char[] chars) {
+       if(chars.length==1){
+           return 1;
+       }
+
+//       for (int i = 0; i <chars.length-1 ; i++) {
+//           int count=1;
+//
+//
+//            if(i>=0){
+//
+//                while(chars[i+1]==chars[i]&&i<=chars.length-1){
+//
+//                    count++;
+//                    if(i==chars.length-1){
+//                        break;
+//                    }
+//                    i++;
+//                }
+//
+//            }
+//           if(count>1){
+//
+//               i=i-count+2;
+//               chars[i]=(char)(count+'0');
+//               i=i+1;
+//
+//           }
+//
+//        }
+//        for (int i = 0; i < chars.length; i++) {
+//            System.out.print(chars[i]+" ");
+//        }
+//        System.out.println();
+
+        int count=0;
+        for (int i = 0; i < chars.length; i++) {
+
+
+           if(i>0){
+               count=1;
+           }
+           while(chars[i]==count){
+               count++;
+           }
+           i=i-count+2;
+
+           chars[i]=(char)(count+'0');
+           i=i+1;
+
+        }
+
+        for (int i = 0; i <chars.length ; i++) {
+            System.out.print(chars[i]+" ");
+        }
+        return chars.length+1;
 
 
     }
 
 
-}
+    public static int myAtoi(String str) {
+        str = str.replace(" ", "");
+        if ((!Character.isDigit(str.charAt(0))) && str.charAt(0) != '-'&&str.charAt(0) != '+') {
+            return 0;
+        }
+        char[] ch = str.toCharArray();
+        char[] nums = new char[ch.length];
+        int index = 0;
+        for (int i = 0; i < ch.length; i++) {
+            if (Character.isDigit(ch[i]) || ch[i] == '-'||ch[i]=='+') {
+                nums[index++] = ch[i];
 
+                System.out.println(index);
+            } else {
+                break;
+            }
+
+
+        }
+        long sum = 0;
+        for (int i = index - 1; i >= 0; i--) {
+
+            System.out.println(sum);
+            if (Character.isDigit(nums[i])) {
+
+                sum = sum + (int) (Integer.parseInt(nums[i] + "") * Math.pow(10.0, index - 1 - i));
+            }
+        }
+        if (nums[0] == '-') {
+            sum = -sum;
+        }
+        if (sum <= Integer.MIN_VALUE) {
+            return  Integer.MIN_VALUE;
+
+        }
+        if (sum >= Integer.MAX_VALUE) {
+            return Integer.MAX_VALUE;
+        }
+        System.out.println(sum);
+        return (int)sum;
+    }
+    public static void main(String[] args) {
+//        char[]  ch={'a','a','b','b'};
+//        wwcompress(ch);
+//        System.out.println(isLongPressedName1("aacbb","aaaaabb"));
+
+        System.out.println(myAtoi("+1"));
+        System.out.println(Integer.MAX_VALUE+""+Integer.MIN_VALUE);
+
+    }
+
+    public static boolean isLongPressedName1(String name, String typed) {
+       int index=0;
+        for (char c: name.toCharArray()
+             ) {
+
+            if(index==typed.length()){
+                return false;
+            }
+
+            if(c!=typed.charAt(index)){
+
+
+                if(index==0||typed.charAt(index-1)!=typed.charAt(index)){
+
+                    return false;
+                }
+
+                char ch= typed.charAt(index);
+                while(index<typed.length()&&typed.charAt(index)==ch){
+                    index++;
+                }
+                if(index==typed.length() ||
+                        //下一个块中第一个字母不等于c
+                        typed.charAt(index)!=c){
+
+                    return false;
+                }
+            }
+            index++;
+        }
+        return true;
+
+    }
+
+
+}

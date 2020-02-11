@@ -100,40 +100,40 @@ public class Test {
 
 
     public static int myAtoi(String str) {
-        str=str.replace(" ","");
-        if(!Character.isDigit(str.charAt(0))&&str.charAt(0)!='-'){
+        str = str.replace(" ", "");
+        if ((!Character.isDigit(str.charAt(0))) && str.charAt(0) != '-') {
             return 0;
         }
-        char [] ch=str.toCharArray();
-        char [] nums=new char[ch.length];
-        int index=0;
-        for (int i = 0; i <ch.length ; i++) {
-            if(Character.isDigit(ch[i])||ch[i]=='-'){
-                nums[index++]=ch[i];
-            }else{
+        char[] ch = str.toCharArray();
+        char[] nums = new char[ch.length];
+        int index = 0;
+        for (int i = 0; i < ch.length; i++) {
+            if (Character.isDigit(ch[i]) || ch[i] == '-') {
+                nums[index++] = ch[i];
+            } else {
                 break;
             }
 
 
         }
-        int sum=0;
-        for (int i = index-1; i >=0; i--) {
-              if(Character.isDigit(nums[i])) {
-                  sum = sum + (int) (Integer.parseInt(nums[i] + "") * Math.pow(10.0, index - 1 - i));
-              }
+        int sum = 0;
+        for (int i = index - 1; i >= 0; i--) {
+            if (Character.isDigit(nums[i])) {
+                sum = sum + (int) (Integer.parseInt(nums[i] + "") * Math.pow(10.0, index - 1 - i));
+            }
         }
-        if(nums[0]=='-'){
-            sum=-sum;
+        if (nums[0] == '-') {
+            sum = -sum;
         }
-           if(sum<Integer.MIN_VALUE){
+        if (sum < Integer.MIN_VALUE) {
             return Integer.MIN_VALUE;
-           }
-           if (sum>Integer.MAX_VALUE){
+        }
+        if (sum > Integer.MAX_VALUE) {
             return Integer.MAX_VALUE;
-           }
+        }
         return sum;
 
-
+    }
 //        str=str.replace(" ","");
 //
 //        char [] ch=str.toCharArray();
@@ -159,7 +159,7 @@ public class Test {
 
 
 
-}
+
 
     public  static boolean isPalindrome(String s){
         char []  ch=s.toCharArray();

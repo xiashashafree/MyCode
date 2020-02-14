@@ -28,7 +28,45 @@ public class StackWork {
 
 
     }
+    public boolean find132pattern(int[] nums) {
+        Stack<Integer> s=new Stack<>();
+        for (int i = 0; i <nums.length ; i++) {
 
+                if(s.size()<3) {
+                    while (s.size() < 3) {
+
+                        s.push(nums[i]);
+                        i++;
+                        if (i == nums.length) {
+                            break;
+                        }
+                    }
+                }else{
+
+                    int num=s.pop();//a[k]
+                    int num1=s.pop();//a[j]
+                    int num2=s.pop();//a[i];
+                    if(num2<num1&&num2<num&&num<num1){
+                        return true;
+                    }else  if(num2>num1){
+
+
+
+
+                    }
+
+
+
+
+
+
+            }
+
+
+        }
+        return false;
+
+    }
     public static void main(String[] args) {
 
         String [] s={"5","2","C","D","+"};

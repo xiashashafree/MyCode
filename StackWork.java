@@ -71,8 +71,39 @@ public class StackWork {
 
         String [] s={"5","2","C","D","+"};
 
-        System.out.println(calPoints(s));
 
+
+        System.out.println(removeOuterParentheses("()"));
+
+    }
+
+    public static String removeOuterParentheses(String S) {
+       // Stack<Character> s=new Stack<>();
+        StringBuilder sb=new StringBuilder();
+        int left=0;
+        int right=0;
+
+        for (int i = 0; i < S.length(); i++) {
+
+            if(S.charAt(i)=='('){
+
+                left++;
+
+            }
+            if(S.charAt(i)==')'){
+                right++;
+            }
+            if(right==left){
+                sb.append(S.substring(i+2-left-right,i));
+                left=0;
+                right=0;
+
+            }
+
+
+        }
+
+          return sb.toString();
     }
 }
 

@@ -50,16 +50,7 @@ public class StackWork {
                         return true;
                     }else  if(num2>num1){
 
-
-
-
                     }
-
-
-
-
-
-
             }
 
 
@@ -67,17 +58,68 @@ public class StackWork {
         return false;
 
     }
+
+    public class Solution {
+        public boolean find132pattern(int[] nums) {
+            if (nums.length < 3)
+                return false;
+            Stack < Integer > stack = new Stack < > ();
+            int[] min = new int[nums.length];
+            min[0] = nums[0];
+            for (int i = 1; i < nums.length; i++)
+                min[i] = Math.min(min[i - 1], nums[i]);
+            for (int j = nums.length - 1; j >= 0; j--) {
+                if (nums[j] > min[j]) {
+                    while (!stack.isEmpty() && stack.peek() <= min[j])
+                        stack.pop();
+                    if (!stack.isEmpty() && stack.peek() < nums[j])
+                        return true;
+                    stack.push(nums[j]);
+                }
+            }
+            return false;
+        }
+    }
+
+
     public static void main(String[] args) {
 
         String [] s={"5","2","C","D","+"};
 
 
 
-        System.out.println(removeOuterParentheses("()"));
+      System.out.println(removeOuterParentheses("((()))(()()()())"));
 
     }
-
     public static String removeOuterParentheses(String S) {
+        Stack<Character> s=new Stack<>();
+        StringBuilder sb=new StringBuilder();
+        int count=0;
+        for (char c: S.toCharArray()
+                ) {
+            if(s.empty()){
+                s.push(c);
+                count++;
+            }else {
+                if (c == '(') {
+                    count++;
+                }
+                if (c == ')') {
+                    count--;
+                }
+                if (count == 0) {
+                    s.pop();
+                } else {
+                    sb.append(c);
+                }
+
+            }
+        }
+
+        return sb.toString();
+
+    }
+    public static String removeOuterParentheses1(String S) {
        // Stack<Character> s=new Stack<>();
         StringBuilder sb=new StringBuilder();
         int left=0;
@@ -105,6 +147,9 @@ public class StackWork {
 
           return sb.toString();
     }
+
+
+
 }
 
 
@@ -128,4 +173,5 @@ class StockSpanner {
         s.push(price);
         return count;
     }
+   
 }

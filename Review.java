@@ -13,6 +13,8 @@ class LinkedList{
     public LinkedList(){
         this.head=null;
     }
+	
+	
     /**返回链表长度*/
     public int getLength(){
         Node cur=head;
@@ -135,7 +137,7 @@ class LinkedList{
 
         return slow;
     }
-
+/**be careful  ,you will achieve you goal*/
     /**翻转单链表*/
     public Node reverse(){
        Node pre=null;

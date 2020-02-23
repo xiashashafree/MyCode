@@ -19,10 +19,18 @@ class ListNode {
  *  public void addList(int data,int index)
  *   private ListNode searchPre(int key)
  *      private ListNode searchPrev(int key)
+ 
+ 
+ 
  *     public void remove(int key)
  *     public void removeAllKey(int key)
+ 
+ 
+ 
  *     public ListNode reverseList()
  *     public void display2(ListNode newHead)
+ 
+ 
  *     public ListNode middleNode()
  *     public ListNode findKthToTail(int k)
  */
@@ -168,24 +176,23 @@ class MySignalList {//无头结点单项不循环
     }
 
     //删除所有值为key的节点
-
-    ////////      老师说的
-//    public void removeAllKey2(int key){
-//        ListNode prev = this.head;
-//        ListNode cur = this.head.next;
-//        while (cur != null) {
-//            if(prev.next.data == key){
-//                prev.next = cur.next;
-//                cur = cur.next;
-//            }else {
-//                prev = cur;
-//                cur = cur.next;
+//////老师说的
+//       Node node=head;
+//       Node cur=head;
+//        while(cur!=null){
+//            if(cur.val!=node.val){
+//                node.next=cur;
+//                node=node.next;
+//                cur=cur.next;
+//            }else{
+//                cur=cur.next;
 //            }
 //        }
-//        if(this.head.data == key) {
-//            this.head = this.head.next;
+//        if(node!=null){
+//            node.next=null;
 //        }
 //    }
+
 
 
 
@@ -237,7 +244,7 @@ class MySignalList {//无头结点单项不循环
 //    }
 
 
-
+//反转单列表
     public  ListNode reverseList(){
         ListNode cur=this.head;
         ListNode pre=null;
@@ -266,6 +273,8 @@ class MySignalList {//无头结点单项不循环
         System.out.println();
     }
 
+
+
     //单链表的中间节点
     public ListNode middleNode() {
         ListNode fast = this.head;
@@ -276,6 +285,9 @@ class MySignalList {//无头结点单项不循环
         }
         return slow;
     }
+	
+	
+	
     //返回倒数第k个结点
     public ListNode findKthToTail(int k){
         // k > getLength()
@@ -290,16 +302,20 @@ class MySignalList {//无头结点单项不循环
                 k--;
             }else {
                 System.out.println("没有这个节点");
-                return null;
+				head=head.next;
+                return head;
             }
         }
         while (fast.next != null) {
             fast = fast.next;
             slow = slow.next;
         }
-        return slow;
+        slow.next=slow.next.next;
+		return head;
 
     }
+
+
     //比x大的构成一个链表  比x小的构成一个链表
     public ListNode partition(int x){
         ListNode cur=this.head;
@@ -385,6 +401,8 @@ class MySignalList {//无头结点单项不循环
         return node.next;
 
     }
+	
+	
     //回文
 
     /**
@@ -439,6 +457,8 @@ public boolean hasCycle(){
         return false;
 }
 
+
+//找到入环结点
 public ListNode findNode(){
     ListNode slow=this.head;
     ListNode fast=this.head;
@@ -462,7 +482,7 @@ public ListNode findNode(){
     return fast;
 
 }
-
+//求环的长度
     public  int cycleLength2( ) {
 
         int count=1;
@@ -508,6 +528,8 @@ public class TestDemo1 {
 //        }
 //        return count;
 //    }
+
+//求环的长度
     public static int cycleLength(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
@@ -532,8 +554,8 @@ public class TestDemo1 {
 //        }
         return count;
     }
-
-
+	
+//合并两个单列表
     public static ListNode mergeTwoLists(
             ListNode headA,ListNode headB) {
         ListNode node=new ListNode(-1);
@@ -566,7 +588,7 @@ public class TestDemo1 {
     }
 
 
-
+//得到两个单列表的交点
     public static ListNode  getIntersectionNode
             (ListNode headA,ListNode headB){
         if(headA == null || headB == null) {
@@ -648,6 +670,47 @@ public class TestDemo1 {
     }
 
 }
+
+
+
+
+    /**
+     * 1.找到中间结点
+     * 2.将后一半翻转
+     * 3.分别从两端比较
+     *
+     */
+	 
+	 //回文
+	 public boolean huiwen(){
+		 ListNode fast=this.head;
+		 ListNode slow=this.head;
+		 while(fast!=null&&fast.next!=null){
+			 fast=fast.next.next;
+			 slow=slow.next;
+		 }
+		 ListNode pre=slow;
+		 slow=slow.next;
+		 while(slow!=null){
+			 ListNode next=slow.next;
+			 slow.next=pre;
+			 pre=slow;
+			 slow=next;
+			 
+		 }
+		 fast=this.head;
+		 while(fast!=slow){
+			 slow=slow.next;
+			 fast=fast.next;
+			 if(fast.next==slow){
+				return true;
+			 }
+			 if(slow.data!=fast.data){
+				 return false;
+			 }
+		 }
+		 return true;
+	 }
 
 
 

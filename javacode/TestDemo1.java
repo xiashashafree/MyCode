@@ -143,6 +143,7 @@ class MySignalList {//无头结点单项不循环
 
     private ListNode searchPre(int key) {
         ListNode prev = this.head;
+		
         //prev.next  头已经判断了
         while (prev.next != null) {
             if (prev.next.data == key) {

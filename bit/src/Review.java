@@ -115,7 +115,7 @@ class LinkedList{
             fast=fast.next;
         }
         Node slow=head;
-        while(slow.next!=null&&fast.next!=null){
+        while(fast.next!=null){
             slow=slow.next;
             fast=fast.next;
         }

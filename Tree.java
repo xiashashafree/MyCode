@@ -68,4 +68,78 @@ public class Tree {
         }
         return true;
     }
+    //最小深度
+    public int minDepth(TreeNode root) {
+        if(root==null){
+            return 0;
+        }
+        if(root.left==null&&root.right==null){
+            return 1;
+        }
+        int left=minDepth(root.left);
+        int right=minDepth(root.right);
+
+        if(root.left==null||root.right==null){
+            return left+right+1;
+        }
+
+        return Math.min(left,right)+1;
+
+
+    }
+
+    //层平均值
+    public List<Double> averageOfLevels(TreeNode root) {
+        List<Double>  ret=new ArrayList<>();
+        Queue<TreeNode> q=new LinkedList<>();
+        q.offer(root);
+        while(!q.isEmpty()){
+            double sum=0;
+            int size=q.size();
+            for(int i=0;i<size;i++){
+                TreeNode n=q.poll();
+                sum=sum+n.val;
+                if(n.left!=null){
+                    q.offer(n.left);
+                }
+                if(n.right!=null){
+                    q.offer(n.right);
+                }
+            }
+            ret.add(sum/size);
+
+        }
+        return ret;
+    }
+
+    //后序非递归
+    public List<Integer> postorderTraversal(TreeNode root) {
+        List<Integer> ret=new ArrayList<>();
+        Stack<TreeNode> s=new Stack<>();
+        TreeNode cur=root;
+
+        TreeNode prev=null;
+        while(cur!=null||!s.empty()){
+
+            while(cur!=null){
+                s.push(cur);
+                cur=cur.left;
+            }
+            TreeNode node=s.peek();
+
+            if(node.right==null||node.right==prev){
+                ret.add(node.val);
+                prev=node;
+                s.pop();
+
+            }else{
+                cur=node.right;
+            }
+
+
+        }
+
+        return ret;
+
+    }
 }

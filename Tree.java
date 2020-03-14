@@ -10,7 +10,11 @@ class TreeNode {
 
 
 public class Tree {
+    TreeNode root=null;
     //中序遍历
+    public Tree(int[]  preorder){
+        bstFromPreorder(preorder);
+    }
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> ret=new ArrayList<>();
 
@@ -142,4 +146,76 @@ public class Tree {
         return ret;
 
     }
+  int index=0;
+    public TreeNode bstFromPreorder(int[] preorder) {
+        TreeNode root=null;
+
+        if(index<preorder.length){
+            root=new TreeNode(preorder[index]);
+            index++;
+            if(index<preorder.length&&preorder[index]<root.val){
+                root.left=bstFromPreorder(preorder);
+
+
+            }
+            index++;
+            if(index<preorder.length&&preorder[index]>root.val){
+                root.right=bstFromPreorder(preorder);
+
+            }
+
+        }
+        return root;
+
+    }
+    private int sum(TreeNode root){
+        if(root==null){
+            return 0;
+        }
+        if(root.left==null&&root.right==null){
+            return root.val;
+        }
+        int left=0,right=0;
+        if(root.left!=null){
+            left=sum(root.left);
+        }
+        if(root.right!=null){
+            right=sum(root.right);
+        }
+        return left+right+root.val;
+    }
+
+    //求二叉树的坡度
+    public int findTilt(TreeNode root) {
+        if(root==null){
+            return 0;
+        }
+        int left=0,right=0;
+        if(root.left!=null){
+            left=sum(root.left);
+        }
+        if(root.right!=null){
+            right=sum(root.right);
+        }
+        return Math.abs(left-right)+root.val;
+    }
+
+    //二叉搜素数最近的公共祖先
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+
+        if(p.val<root.val&&q.val<root.val){
+            return lowestCommonAncestor(root.left,p,q);
+        }
+        if(p.val>root.val&&q.val>root.val){
+            return lowestCommonAncestor(root.right,p,q);
+        }
+        return root;
+
+
+    }
+    public static void main(String[] args) {
+        int[] preOrder={8,5,1,7,10,12};
+         Tree t=new Tree(preOrder);
+    }
+
 }

@@ -213,9 +213,84 @@ public class Tree {
 
 
     }
+
+    private List<Integer>  inorder(TreeNode root){
+        List<Integer> ret=new ArrayList<>();
+        if(root!=null){
+            inorder(root.left);
+            ret.add(root.val);
+            inorder(root.right);
+        }
+        return ret;
+
+    }
+    public int kthLargest(TreeNode root, int k) {
+        List<Integer> ret=inorder(root);
+        Collections.reverse(ret);
+        return ret.get(k-1);
+    }
+
+    /**单值二叉树*/
+    int val;
+    private boolean hh(TreeNode root){
+        if(root==null){
+            return true;
+        }
+        if(root.val==val){
+            return hh(root.left)&&hh(root.right);
+        }
+        return false;
+
+    }
+    public boolean isUnivalTree(TreeNode root) {
+        if(root==null){
+            return true;
+        }
+        val=root.val;
+        return hh(root);
+
+    }
+    /**找第K大的结点值*/
+    List<Integer> ret=new ArrayList<>();
+    private List<Integer>  inorder(TreeNode root){
+
+        if(root!=null){
+            inorder(root.left);
+            ret.add(root.val);
+            inorder(root.right);
+        }
+        return ret;
+
+    }
+    public int kthLargest(TreeNode root, int k) {
+        inorder(root);
+        Collections.reverse(ret);
+        return ret.get(k-1);
+    }
+/**普通二叉树的最近祖先节点*/
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if(root==null||p==root||q==root){
+            return root;
+        }
+        TreeNode left=lowestCommonAncestor(root.left,p,q);
+        TreeNode right=lowestCommonAncestor(root.right,p,q);
+        if(left==null){
+            return right;
+        }
+        if(right==null){
+            return left;
+        }
+
+        return root;
+    }
     public static void main(String[] args) {
-        int[] preOrder={8,5,1,7,10,12};
-         Tree t=new Tree(preOrder);
+//        int[] preOrder={8,5,1,7,10,12};
+//         Tree t=new Tree(preOrder);
+        List<Integer> l=new ArrayList<>();
+        l.add(1);
+
+        System.out.println(l.get(0));
+
     }
 
 }

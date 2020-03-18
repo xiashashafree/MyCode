@@ -283,6 +283,70 @@ public class Tree {
 
         return root;
     }
+
+
+    /**二叉树的镜像*/
+
+    TreeNode Root;
+    private void exchange(TreeNode Root){
+
+        if(Root==null || Root.left==null&&Root.right==null){
+            return;
+        }
+        if(Root.left==null){
+            Root.left=Root.right;
+            Root.right=null;
+        }else if(Root.right==null){
+            Root.right=Root.left;
+            Root.left=null;
+        }else{
+            TreeNode node=Root.right;
+            Root.right=Root.left;
+            Root.left=node;
+        }
+
+        exchange(Root.left);
+        exchange(Root.right);
+
+
+
+
+    }
+    public TreeNode mirrorTree(TreeNode root) {
+
+        Root=root;
+        exchange(Root);
+        return Root;
+    }
+    /**重构二叉树，左右子树交换*/
+    int index1=0;
+    private TreeNode buildTree(int[] preorder,int[] inorder,int left,int right){
+        if(index1>=preorder.length||left>right){
+            return null;
+        }
+        TreeNode  node=new TreeNode(preorder[index1]);
+        int inIdex=left;
+        while(inIdex<=right){
+            if(inorder[inIdex]==preorder[index1]){
+                break;
+            }
+            inIdex++;
+        }
+
+        index1++;
+
+        node.left=buildTree(preorder,inorder,left,inIdex-1);
+        node.right=buildTree(preorder,inorder,inIdex+1,right);
+
+        return node;
+
+
+
+    }
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        return buildTree(preorder,inorder,0,preorder.length-1);
+
+    }
     public static void main(String[] args) {
 //        int[] preOrder={8,5,1,7,10,12};
 //         Tree t=new Tree(preOrder);

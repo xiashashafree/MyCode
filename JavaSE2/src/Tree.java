@@ -357,4 +357,45 @@ public class Tree {
 
     }
 
+/**二叉树的前K个最小数*/
+    private PriorityQueue<Integer> order(TreeNode root,PriorityQueue<Integer> q){
+        if(root!=null){
+            q.offer(root.val);
+            order(root.left,q);
+            order(root.right,q);
+        }
+        return q;
+    }
+    public int kthSmallest(TreeNode root, int k) {
+        PriorityQueue<Integer> q=new PriorityQueue<>();
+        order(root,q);
+        while(k>1){
+            q.poll();
+            k--;
+        }
+        return q.peek();
+    }
+    /**完全二叉树的和*/
+    int sum;
+    private void hh(TreeNode root){
+        if(root==null){
+            return;
+        }
+        if(root!=null){
+            sum++;
+        }
+        hh(root.left);
+        hh(root.right);
+    }
+    public int countNodes(TreeNode root) {
+        if(root==null){
+            return 0;
+        }
+        hh(root);
+        return sum;
+
+
+    }
+
+
 }

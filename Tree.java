@@ -347,6 +347,45 @@ public class Tree {
         return buildTree(preorder,inorder,0,preorder.length-1);
 
     }
+	//二叉树的锯齿形层次遍历
+	
+	 public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+         List<List<Integer>> ret=new ArrayList<>();
+       if(null==root){
+           return ret;
+       }
+       int dir=0;
+       Queue<TreeNode> q=new LinkedList<>();
+       q.offer(root);
+       while(!q.isEmpty()){
+           int size=q.size();
+           List<Integer> l=new ArrayList<>(size);
+           for(int i=0;i<size;i++){
+
+               TreeNode node=q.poll();
+               l.add(node.val);
+               
+               if(node.left!=null){
+                    q.offer(node.left);
+                }
+                if(node.right!=null){
+                    q.offer(node.right);
+                }
+
+              
+               
+           }
+           if(dir%2!=0){
+               Collections.reverse(l);
+           }
+           dir++;
+           ret.add(l);
+
+       }
+       return ret;
+        
+
+    }
     public static void main(String[] args) {
 //        int[] preOrder={8,5,1,7,10,12};
 //         Tree t=new Tree(preOrder);
@@ -356,5 +395,7 @@ public class Tree {
         System.out.println(l.get(0));
 
     }
+	
+	
 
 }

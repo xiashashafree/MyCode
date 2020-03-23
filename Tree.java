@@ -146,6 +146,51 @@ public class Tree {
         return ret;
 
     }
+	//二叉树的所有路径
+	
+	 List<String>  ret=new ArrayList<>();
+
+    private List<String> getPath(TreeNode root,String s){
+       if(root==null){
+           return ret;
+       }
+       s=s+"->"+root.val;
+       if(root.left==null&&root.right==null){
+           ret.add(s);
+           return ret;
+       }
+       
+        if(root.left!=null){
+            getPath(root.left,s);
+        }
+        if(root.right!=null){
+            getPath(root.right,s);
+        }
+           
+        return ret;    
+    }
+
+
+    
+    public List<String> binaryTreePaths(TreeNode root) {
+         
+
+         if(root==null){
+             return ret;
+         } 
+
+         String s=root.val+"";
+         getPath(root.left,s);
+         getPath(root.right,s);
+         if(ret.size()==0){
+             ret.add(s);
+
+         }
+         return ret;
+    }
+	
+	
+	
   int index=0;
     public TreeNode bstFromPreorder(int[] preorder) {
         TreeNode root=null;

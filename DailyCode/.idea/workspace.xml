@@ -15,15 +15,11 @@
       <file leaf-file-name="HelloB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HelloB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="184">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
               <folding>
                 <element signature="e#34#35#0" expanded="true" />
-                <element signature="e#70#71#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#83#84#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -32,20 +28,29 @@
       <file leaf-file-name="Main4.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OJPratice/Main4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            <state relative-caret-position="736">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main5.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main5.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OJPratice/Main5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="380">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Sort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-172">
+              <caret line="352" column="17" lean-forward="true" selection-start-line="352" selection-start-column="17" selection-end-line="352" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -80,11 +85,11 @@
         <option value="$PROJECT_DIR$/src/OJPratice/Main2.java" />
         <option value="$PROJECT_DIR$/src/OJPratice/ReplaceSpace.java" />
         <option value="$PROJECT_DIR$/src/OJPratice/Main3.java" />
-        <option value="$PROJECT_DIR$/src/Sort.java" />
-        <option value="$PROJECT_DIR$/src/Sort.java" />
         <option value="$PROJECT_DIR$/src/HelloB.java" />
         <option value="$PROJECT_DIR$/src/OJPratice/Main4.java" />
         <option value="$PROJECT_DIR$/src/OJPratice/Main5.java" />
+        <option value="$PROJECT_DIR$/src/Sort.java" />
+        <option value="$PROJECT_DIR$/src/Sort.java" />
       </list>
     </option>
   </component>
@@ -108,9 +113,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,6 +135,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -163,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main5">
+  <component name="RunManager" selected="Application.Sort">
     <configuration name="HelloB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloB" />
       <module name="DailyCode" />
@@ -257,10 +262,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sort" />
         <item itemvalue="Application.Main5" />
         <item itemvalue="Application.Main4" />
         <item itemvalue="Application.HelloB" />
-        <item itemvalue="Application.Sort" />
         <item itemvalue="Application.Main3" />
       </list>
     </recent_temporary>
@@ -287,11 +292,13 @@
       <workItem from="1585879659352" duration="4389000" />
       <workItem from="1585895290000" duration="4099000" />
       <workItem from="1585918129785" duration="4821000" />
+      <workItem from="1585969293513" duration="21000" />
+      <workItem from="1586267390567" duration="4588000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39731000" />
+    <option name="totallyTimeSpent" value="44340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
@@ -306,7 +313,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30456853" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.06768189" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -654,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6164">
-          <caret line="268" column="28" selection-start-line="268" selection-start-column="28" selection-end-line="268" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/OJPratice/Main3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -670,33 +670,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HelloB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        <state relative-caret-position="184">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding>
             <element signature="e#34#35#0" expanded="true" />
-            <element signature="e#70#71#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#83#84#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OJPratice/Main4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="736">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OJPratice/Main5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="380">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <caret line="352" column="17" lean-forward="true" selection-start-line="352" selection-start-column="17" selection-end-line="352" selection-end-column="17" />
         </state>
       </provider>
     </entry>

@@ -18,14 +18,14 @@
             <state relative-caret-position="357">
               <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding>
-                <element signature="e#847#848#0" expanded="true" />
                 <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DNA.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DNA.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AOneQuestionPerDay/DNA.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
@@ -34,47 +34,50 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="FirstOneCountChar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AOneQuestionPerDay/FirstOneCountChar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlipString.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AOneQuestionPerDay/FlipString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/StringBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-19">
+              <caret line="383" column="45" lean-forward="true" selection-start-line="383" selection-start-column="45" selection-end-line="383" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractStringBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/AbstractStringBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="1411" column="33" selection-start-line="1411" selection-start-column="33" selection-end-line="1411" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="43355">
               <caret line="1972" column="20" selection-start-line="1972" selection-start-column="20" selection-end-line="1972" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RotateArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AOneQuestionPerDay/RotateArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinKnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AOneQuestionPerDay/MinKnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OldKeyboard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AOneQuestionPerDay/OldKeyboard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Train.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AOneQuestionPerDay/Train.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -91,7 +94,7 @@
       <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/PriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-83">
+            <state relative-caret-position="14513">
               <caret line="672" column="9" selection-start-line="672" selection-start-column="9" selection-end-line="672" selection-end-column="9" />
             </state>
           </provider>
@@ -176,6 +179,8 @@
         <option value="$PROJECT_DIR$/src/AOneQuestionPerDay/TrainRight.java" />
         <option value="$PROJECT_DIR$/src/AOneQuestionPerDay/Test.java" />
         <option value="$PROJECT_DIR$/src/AOneQuestionPerDay/DNA.java" />
+        <option value="$PROJECT_DIR$/src/AOneQuestionPerDay/FirstOneCountChar.java" />
+        <option value="$PROJECT_DIR$/src/AOneQuestionPerDay/FlipString.java" />
       </list>
     </option>
   </component>
@@ -199,8 +204,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,7 +240,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,14 +271,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="ArrayCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Success.ArrayCount" />
+  <component name="RunManager" selected="Application.FlipString">
+    <configuration name="FlipString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.FlipString" />
       <module name="DailyCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Success.*" />
+          <option name="PATTERN" value="AOneQuestionPerDay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -376,19 +381,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main1" />
-      <item itemvalue="Application.ArrayCount" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.RotateArray" />
       <item itemvalue="Application.Train" />
       <item itemvalue="Application.TrainRight" />
+      <item itemvalue="Application.FlipString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlipString" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.TrainRight" />
         <item itemvalue="Application.Train" />
         <item itemvalue="Application.RotateArray" />
-        <item itemvalue="Application.ArrayCount" />
       </list>
     </recent_temporary>
   </component>
@@ -436,11 +441,12 @@
       <workItem from="1587045744562" duration="644000" />
       <workItem from="1587108633347" duration="9670000" />
       <workItem from="1587129062662" duration="2324000" />
+      <workItem from="1587303551768" duration="1962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132498000" />
+    <option name="totallyTimeSpent" value="134460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
@@ -455,7 +461,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.18781726" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -476,21 +482,21 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.11844332" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15222482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.11844332" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
@@ -499,7 +505,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32994923" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -525,34 +531,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Thinking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BitCompute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -841,15 +819,39 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
+        <state relative-caret-position="14513">
           <caret line="672" column="9" selection-start-line="672" selection-start-column="9" selection-end-line="672" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
+        <state relative-caret-position="43355">
           <caret line="1972" column="20" selection-start-line="1972" selection-start-column="20" selection-end-line="1972" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AOneQuestionPerDay/DNA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AOneQuestionPerDay/FirstOneCountChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/AbstractStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="1411" column="33" selection-start-line="1411" selection-start-column="33" selection-end-line="1411" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -858,16 +860,23 @@
         <state relative-caret-position="357">
           <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding>
-            <element signature="e#847#848#0" expanded="true" />
             <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AOneQuestionPerDay/DNA.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="-19">
+          <caret line="383" column="45" lean-forward="true" selection-start-line="383" selection-start-column="45" selection-end-line="383" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AOneQuestionPerDay/FlipString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>

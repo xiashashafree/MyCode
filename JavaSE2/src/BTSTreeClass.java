@@ -1,3 +1,4 @@
+import java.util.Stack;
 
 public class BTSTreeClass {
     private BTSNode root = null;
@@ -157,15 +158,75 @@ public class BTSTreeClass {
     }
 
     void inOrder() {
-        inOrder(root);
+        inorderNor(root);
         System.out.println();
     }
 
-    void inOrder(BTSNode root) {
+    private void inOrder(BTSNode root) {
         if (root != null) {
             inOrder(root.left);
             System.out.print(root.val + " ");
             inOrder(root.right);
+        }
+    }
+    private void inorderNor(BTSNode root){
+        if(root == null) {
+            return;
+        }
+
+        BTSNode cur = root;
+        Stack<BTSNode> s =new Stack<>();
+
+        while(cur != null || !s.empty()){
+            if(cur != null){
+                s.push(cur);
+                cur=cur.left;
+            }else{
+                cur = s.pop();
+                System.out.print(cur.val+" ");
+                cur=cur.right;
+            }
+        }
+    }
+
+    /***
+     * java.lang.NullPointerException
+     *   at line 117, TreeNodeSerializer.isValid
+     *   at line 144, TreeNodeSerializer.serialize
+     *   at line 186, __Driver__.main
+     * 将二叉搜索树转换为双向列表
+     * @param args
+     */
+
+    BTSNode prev = null;
+    public  void toLinked(){
+        if(root == null){
+            return ;
+        }
+        BTSNode head = root;
+
+        while(head.left!=null){
+            head = head.left;
+        }
+        toLinkedList(root);
+
+        while(head != null){
+            System.out.print(head.val+"--->");
+            head = head.right;
+        }
+        System.out.println("NULL");
+
+
+    }
+    private void toLinkedList(BTSNode root){
+        if(root != null){
+            toLinkedList(root.left);
+            root.left = prev;
+            if(prev != null){
+                prev.right = root;
+            }
+            prev = root;
+            toLinkedList(root.right);
         }
     }
 
@@ -179,5 +240,7 @@ public class BTSTreeClass {
 
         tree.deleteNode(3);
         tree.inOrder();
+        tree.toLinked();
+
     }
 }

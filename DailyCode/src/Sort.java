@@ -1,3 +1,4 @@
+import java.util.PriorityQueue;
 import java.util.Stack;
 
 public class Sort {
@@ -444,6 +445,7 @@ public class Sort {
 //        mergeSortNor(array);
 //        radixSort(array);
 //        bubbleSort(array);
-        printArray(array);
+//        printArray(array);
+        PriorityQueue queue = new PriorityQueue();
     }
 }

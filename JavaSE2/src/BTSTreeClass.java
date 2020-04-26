@@ -1,3 +1,4 @@
+import java.io.FileNotFoundException;
 import java.util.Stack;
 
 public class BTSTreeClass {
@@ -153,6 +154,20 @@ public class BTSTreeClass {
             } else {
                 parent.left = del.right;
             }
+
+
+//            BTSNode del = cur.left;
+//            parent = cur;
+//            while(del.right!=null){
+//                parent = del;
+//                del=del.right;
+//            }
+//            cur.val = del.val;
+//            if (del == parent.left) {
+//                parent.left = del.left;
+//            }else{
+//                parent.right = del.left;
+//            }
         }
         return true;
     }
@@ -190,10 +205,7 @@ public class BTSTreeClass {
     }
 
     /***
-     * java.lang.NullPointerException
-     *   at line 117, TreeNodeSerializer.isValid
-     *   at line 144, TreeNodeSerializer.serialize
-     *   at line 186, __Driver__.main
+     *
      * 将二叉搜索树转换为双向列表
      * @param args
      */
@@ -218,6 +230,8 @@ public class BTSTreeClass {
 
 
     }
+
+    //right指向大值，left指向小值
     private void toLinkedList(BTSNode root){
         if(root != null){
             toLinkedList(root.left);
@@ -229,6 +243,7 @@ public class BTSTreeClass {
             toLinkedList(root.right);
         }
     }
+
 
     public static void main(String[] args) {
         BTSTreeClass tree = new BTSTreeClass();

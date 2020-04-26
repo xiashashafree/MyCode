@@ -1,12 +1,12 @@
 
     public class StructTree2 {
         int index=0;
-        private TreeNode buildTree(int[] preorder,int[] inorder,int left,int right){
+        private TreeNode1 buildTree(int[] preorder,int[] inorder,int left,int right){
             if(index>=preorder.length||left>right){
                 return null;
             }
 
-            TreeNode root=new TreeNode(preorder[index]);
+            TreeNode1 root=new TreeNode1(preorder[index]);
 
             int inrootIdx=left;
 
@@ -23,7 +23,7 @@
 
             return root;
         }
-        public TreeNode buildTree(int[] preorder, int[] inorder) {
+        public TreeNode1 buildTree(int[] preorder, int[] inorder) {
             return buildTree(preorder,inorder,0,preorder.length-1);
         }
     }

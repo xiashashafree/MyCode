@@ -50,6 +50,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -62,9 +68,23 @@
       <recent name="E:\DailyCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.把数组排成最小数">
+  <component name="RunManager" selected="Application.BTStep">
     <configuration name="把数组排成最小数" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.把数组排成最小数" />
+      <module name="DailyCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AOneQuestionPerDay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BTStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.BTStep" />
       <module name="DailyCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -178,9 +198,11 @@
       <item itemvalue="Application.Score" />
       <item itemvalue="Application.SortedArrayNumCount" />
       <item itemvalue="Application.GrayCode" />
+      <item itemvalue="Application.BTStep" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BTStep" />
         <item itemvalue="Application.GrayCode" />
         <item itemvalue="Application.SortedArrayNumCount" />
         <item itemvalue="Application.Score" />
@@ -249,6 +271,7 @@
       <workItem from="1587868569625" duration="5060000" />
       <workItem from="1587897539237" duration="36000" />
       <workItem from="1588000100910" duration="42000" />
+      <workItem from="1588064173528" duration="1559000" />
     </task>
     <servers />
   </component>
@@ -260,22 +283,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1587897578160" />
-    <state width="1237" height="372" key="GridCell.Tab.0.bottom" timestamp="1587731785456">
+    <state width="1237" height="3" key="GridCell.Tab.0.bottom" timestamp="1588066427258">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="372" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587731785456" />
-    <state width="1237" height="372" key="GridCell.Tab.0.center" timestamp="1587731785456">
+    <state width="1237" height="3" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1588066427258" />
+    <state width="1237" height="3" key="GridCell.Tab.0.center" timestamp="1588066427257">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="372" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1587731785456" />
-    <state width="1237" height="372" key="GridCell.Tab.0.left" timestamp="1587731785456">
+    <state width="1237" height="3" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1588066427257" />
+    <state width="1237" height="3" key="GridCell.Tab.0.left" timestamp="1588066427257">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="372" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1587731785456" />
-    <state width="1237" height="372" key="GridCell.Tab.0.right" timestamp="1587731785456">
+    <state width="1237" height="3" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1588066427257" />
+    <state width="1237" height="3" key="GridCell.Tab.0.right" timestamp="1588066427258">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="372" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1587731785456" />
+    <state width="1237" height="3" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1588066427258" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

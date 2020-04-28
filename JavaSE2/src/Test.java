@@ -60,37 +60,107 @@ class CardDeam{
 }
 public class Test {
     public static void game(List<Card> cards) {
-        List<List<Card>> hand = new ArrayList<>();
-        for (int i = 0; i < 5; i++) {
-            hand.add(new ArrayList<Card>());
-            for (int j = 0; j < 3; j++) {
-                Card card = cards.remove(0);
-                hand.get(i).add(card);
+//        List<List<Card>> hand = new ArrayList<>();
+//        for (int i = 0; i < 5; i++) {
+//            hand.add(new ArrayList<Card>());
+//            for (int j = 0; j < 3; j++) {
+//                Card card = cards.remove(0);
+//                hand.get(i).add(card);
+//            }
+//        }
+//        for (int i = 0; i < hand.size(); i++) {
+//            System.out.println(hand.get(i));
+//        }
+       int num=167773121;
+       while(num!=0){
+           System.out.print(num|0);
+           num = num>>1;
+       }
+        System.out.println();
+
+    }
+    private static void numtoIP(int num){
+        StringBuilder sb = new StringBuilder();
+
+        while(num!=0){
+            sb.append(num&1);
+            num = num>>1;
+        }
+        int bit = 32-sb.length();
+        for(int i=0;i<bit;i++){
+            sb.append(0);
+        }
+        sb.reverse();
+        for(int i=0;i<4;i++){
+
+            System.out.print(Integer.parseInt(sb.substring((i*8),(i*8)+8)));
+            if(i<3){
+                System.out.print(".");
             }
         }
-        for (int i = 0; i < hand.size(); i++) {
-            System.out.println(hand.get(i));
+        System.out.println();
+    }
+    private static int toNum(int[] num,int index1,int index2){
+        int bit = 0;
+        int sum = 0;
+        for(int i=index2;i>=index1;i--){
+            if(num[i]!=0){
+                sum = (int)(sum+(num[i]*(Math.pow(2,bit))));
+            }
+
+            bit++;
         }
+        return sum;
     }
 
+    private static void iptoNum(String IP){
+        String[] str = IP.split("\\.");
+
+        int[]ret = new int[32];
+        int count = 0;
+        for (String s:str ){
+            System.out.println(s);
+            int num = Integer.parseInt(s);
+            for(int i=count*8+7;i>=count*8;i--){
+                ret[i] = num&1;
+                num>>=1;
+            }
+            count++;
+        }
+
+        int sum = 0;
+        sum = toNum(ret,0,ret.length-1);
+        System.out.println(sum);
+
+    }
 
     public static void main(String[] args) {
-        CardDeam L=new CardDeam();
-        List<Card> cards=L.BuyCard();
-        L.shuffle(cards);
-        System.out.println(cards);
-        System.out.println();
-        game(cards);
-        System.out.println();
-        System.out.println(cards);
-int [] a=new int[2];
-a[0]=1;
-a[1]=2;
-        Arrays.sort(a);
-        String s="subss";
-        String s1="ss";
-        s.contains(s1);
-        System.out.println(Arrays.toString(a));
+
+
+//        int[] ret = new int[32];
+//
+//        int num = 167773121;
+//        int index = 31;
+//        while(num!=0){
+//            ret[index--] = num&1;
+//            num = num>>1;
+//        }
+//        int sum = 0;
+//        for (int i = 0; i < ret.length; i++) {
+//            System.out.print(ret[i]);
+//        }
+//        System.out.println();
+//        for(int i=0;i<4;i++){
+//            sum = toNum(ret,i*8,i*8+7);
+//            System.out.print(sum);
+//            if(i<3){
+//                System.out.print(".");
+//            }
+//        }
+//        System.out.println();
+      iptoNum( "10.0.3.193");
+
+
     }
 }
 // class A<T> {

@@ -33,12 +33,6 @@
       <dir>E:\DailyCode</dir>
     </dirStrings>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="258" />
-    <option name="y" value="114" />
-    <option name="width" value="909" />
-    <option name="height" value="930" />
-  </component>
   <component name="ProjectId" id="1azGceZ86dLuVKgnbMj3BpkZOf4" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
@@ -274,6 +268,7 @@
       <workItem from="1588064173528" duration="1559000" />
       <workItem from="1588122044409" duration="165000" />
       <workItem from="1588171919536" duration="1617000" />
+      <workItem from="1588215435713" duration="2052000" />
     </task>
     <servers />
   </component>

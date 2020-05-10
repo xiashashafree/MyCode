@@ -1,8 +1,7 @@
 package lesson1;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
+
 public class Main{
     public static int ret(List<Integer> l){
         int index=0;
@@ -16,17 +15,18 @@ public class Main{
     public static void main(String[] args){
 
 
-        Scanner sc = new Scanner(System.in);
-
-        while(sc.hasNextInt()){
-            List<Integer> l=new LinkedList<>();
-            int len = sc.nextInt();
-
-            for(int i=0; i<len; i++){
-                l.add(i);
-            }
-            System.out.println(ret(l));
-        }
+//        Scanner sc = new Scanner(System.in);
+//
+//        while(sc.hasNextInt()){
+//            List<Integer> l=new LinkedList<>();
+//            int len = sc.nextInt();
+//
+//            for(int i=0; i<len; i++){
+//                l.add(i);
+//            }
+//            System.out.println(ret(l));
+//        }
+        Map<String,String> map = new LinkedHashMap<>();
 
 
     }

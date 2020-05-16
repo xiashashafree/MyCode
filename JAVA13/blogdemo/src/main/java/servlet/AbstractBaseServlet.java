@@ -60,29 +60,44 @@ public abstract class AbstractBaseServlet extends HttpServlet {
 
 //        System.out.println(req.getServletPath());//请求servlet路径：/articleList
 //        System.out.println(req.getContextPath());//应用部署路径（上下文路径）/blogDemo：
-//        System.out.println(req.getRequestURL());//请求的全路径
+//       System.out.println(req.getRequestURL());//请求的全路径
 //        System.out.println(req.getRequestURI());//contextPath+servlet路径
 //        System.out.println(req.getPathInfo());
 //        String path = req.getServletPath();
-       // Integer count = MAP.get(path);//map.get()是线程安全的
+
 
         //方法1：synchronized保证代码的原子性
-//        synchronized (MAP){
-//            if(count == null){
-//                count = 1;
-//            }else{
-//                count++;
-//            }
-//            MAP.put(path,count);
-//        }
+        synchronized (MAP){
+            String path = req.getServletPath();
+            Integer count = MAP.get(path);//map.get()是线程安全的
+            if(count == null){
+                count = 1;
+            }else{
+                count++;
+            }
+            MAP.put(path,count);
+        }
 
         //方法二，通过AtomicInteger集合ConcurrentHashMap来保证线程安全
         String path = req.getServletPath();
-        AtomicInteger count = MAP2.putIfAbsent(path,new AtomicInteger());
+        //ConcurrentHashMap.putIfAbsent()，如果没有键存在，放键值对进去返回空，如果有这个键存在，返回值
+        AtomicInteger count = MAP2.putIfAbsent(path,new AtomicInteger(1));
 
+        System.out.println(MAP2.get("/articleList"));
+        if(count != null){
+            count.incrementAndGet();
+        }
+        System.out.println(MAP2.get("/articleList"));
 
     }
 
     public abstract  Object process(HttpServletRequest req, HttpServletResponse resp) throws Exception;
 
+    public static ConcurrentHashMap<String, Integer> getMAP() {
+        return MAP;
+    }
+
+    public static ConcurrentHashMap<String, AtomicInteger> getMAP2() {
+        return MAP2;
+    }
 }

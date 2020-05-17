@@ -1,5 +1,7 @@
 package servlet;
 
+import dao.ArticleDAO;
+import exception.BusinessException;
 import model.Article;
 import util.JSONUtil;
 
@@ -23,7 +25,11 @@ public class ArticleUpdateServlet extends AbstractBaseServlet{
         //模拟数据库修改操作
 
         System.out.println("*****************\n"+article);
+        int num = ArticleDAO.update(article);
 
+        if(num!= 1){
+            throw new BusinessException("004","文章更新出错");
+        }
         return null;
     }
 

@@ -47,7 +47,7 @@
     <!-- action = "login"  现在访问到的页面是：http://localhost:8080/blogdemo/jsp/login，
     是以当前页面为相对路径    action = "/login" 现在访问到的是--http://localhost:8080/login -->
     <!-- 配置jsp变量及base标签 可以解决路径问题 ：action="login"，访问的就是正确路径 -->
-    <form action = "login">
+    <form action = "articleList">
         <input type = "text" name="username" placeholder="请输入用户名">
         <input type = "password" name="password" placeholder="请输入密码">
         <input type = "submit" value = "提交">

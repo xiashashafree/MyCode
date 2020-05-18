@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JAVA13" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,7 +63,7 @@
       <recent name="E:\DailyCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrintFromOneToMax">
+  <component name="RunManager" selected="Application.IPtoNum">
     <configuration name="把数组排成最小数" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.把数组排成最小数" />
       <module name="DailyCode" />
@@ -92,6 +92,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IPtoNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IPtoNum" />
+      <module name="DailyCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntegerPowerOfValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm.IntegerPowerOfValue" />
       <module name="DailyCode" />
@@ -116,14 +124,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainFunction" />
-      <module name="DailyCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,19 +183,19 @@
     <list>
       <item itemvalue="Application.把数组排成最小数" />
       <item itemvalue="Application.Main1" />
-      <item itemvalue="Application.MainFunction" />
       <item itemvalue="Application.UglyNum" />
       <item itemvalue="Application.BigIntegerCompare" />
       <item itemvalue="Application.IntegerPowerOfValue" />
       <item itemvalue="Application.PrintFromOneToMax" />
+      <item itemvalue="Application.IPtoNum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IPtoNum" />
         <item itemvalue="Application.PrintFromOneToMax" />
         <item itemvalue="Application.IntegerPowerOfValue" />
         <item itemvalue="Application.BigIntegerCompare" />
         <item itemvalue="Application.UglyNum" />
-        <item itemvalue="Application.MainFunction" />
       </list>
     </recent_temporary>
   </component>
@@ -284,6 +284,7 @@
       <workItem from="1589361029839" duration="1837000" />
       <workItem from="1589534431177" duration="1693000" />
       <workItem from="1589550947983" duration="845000" />
+      <workItem from="1589783732890" duration="6010000" />
     </task>
     <servers />
   </component>
@@ -295,42 +296,42 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1588321657095" />
-    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1589365843569">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1589800244864">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1589365843569" />
-    <state width="1237" height="68" key="GridCell.Tab.0.bottom" timestamp="1589536980459">
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1589800244864" />
+    <state width="1161" height="270" key="GridCell.Tab.0.bottom" timestamp="1589800246252">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="68" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1589536980459" />
-    <state width="1237" height="68" key="GridCell.Tab.0.center" timestamp="1589536980459">
+    <state width="1161" height="270" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1589800246252" />
+    <state width="1161" height="270" key="GridCell.Tab.0.center" timestamp="1589800246252">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="68" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1589536980459" />
-    <state width="1237" height="68" key="GridCell.Tab.0.left" timestamp="1589536980459">
+    <state width="1161" height="270" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1589800246252" />
+    <state width="1161" height="270" key="GridCell.Tab.0.left" timestamp="1589800246252">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="68" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1589536980459" />
-    <state width="1237" height="68" key="GridCell.Tab.0.right" timestamp="1589536980459">
+    <state width="1161" height="270" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1589800246252" />
+    <state width="1161" height="270" key="GridCell.Tab.0.right" timestamp="1589800246252">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="68" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1589536980459" />
-    <state width="1237" height="68" key="GridCell.Tab.1.bottom" timestamp="1589536980460">
+    <state width="1161" height="270" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1589800246252" />
+    <state width="1161" height="270" key="GridCell.Tab.1.bottom" timestamp="1589800246252">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="68" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1589536980460" />
-    <state width="1237" height="68" key="GridCell.Tab.1.center" timestamp="1589536980460">
+    <state width="1161" height="270" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1589800246252" />
+    <state width="1161" height="270" key="GridCell.Tab.1.center" timestamp="1589800246252">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="68" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1589536980460" />
-    <state width="1237" height="68" key="GridCell.Tab.1.left" timestamp="1589536980460">
+    <state width="1161" height="270" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1589800246252" />
+    <state width="1161" height="270" key="GridCell.Tab.1.left" timestamp="1589800246252">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="68" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1589536980460" />
-    <state width="1237" height="68" key="GridCell.Tab.1.right" timestamp="1589536980460">
+    <state width="1161" height="270" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1589800246252" />
+    <state width="1161" height="270" key="GridCell.Tab.1.right" timestamp="1589800246252">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="68" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1589536980460" />
+    <state width="1161" height="270" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1589800246252" />
     <state x="298" y="158" key="run.anything.popup" timestamp="1588947131549">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

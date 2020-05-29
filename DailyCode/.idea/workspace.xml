@@ -63,7 +63,7 @@
       <recent name="E:\DailyCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WakeUp">
+  <component name="RunManager" selected="Application.LeftRightMaxValue">
     <configuration name="把数组排成最小数" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.把数组排成最小数" />
       <module name="DailyCode" />
@@ -80,6 +80,20 @@
     </configuration>
     <configuration name="BrotherWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.BrotherWords" />
+      <module name="DailyCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AOneQuestionPerDay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeftRightMaxValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.LeftRightMaxValue" />
       <module name="DailyCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -134,20 +148,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.PhoneNumber" />
-      <module name="DailyCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AOneQuestionPerDay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WakeUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.WakeUp" />
       <module name="DailyCode" />
@@ -189,19 +189,19 @@
     <list>
       <item itemvalue="Application.把数组排成最小数" />
       <item itemvalue="Application.Main1" />
-      <item itemvalue="Application.PhoneNumber" />
       <item itemvalue="Application.MinMatrix" />
       <item itemvalue="Application.BrotherWords" />
       <item itemvalue="Application.Mistake" />
       <item itemvalue="Application.WakeUp" />
+      <item itemvalue="Application.LeftRightMaxValue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeftRightMaxValue" />
         <item itemvalue="Application.WakeUp" />
         <item itemvalue="Application.Mistake" />
         <item itemvalue="Application.BrotherWords" />
         <item itemvalue="Application.MinMatrix" />
-        <item itemvalue="Application.PhoneNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -309,6 +309,7 @@
       <workItem from="1590498350441" duration="725000" />
       <workItem from="1590590605943" duration="980000" />
       <workItem from="1590674882740" duration="283000" />
+      <workItem from="1590757623627" duration="520000" />
     </task>
     <servers />
   </component>
@@ -324,22 +325,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1590133425568" />
-    <state width="1237" height="18" key="GridCell.Tab.0.bottom" timestamp="1590675175507">
+    <state width="1237" height="106" key="GridCell.Tab.0.bottom" timestamp="1590758157073">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="18" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1590675175507" />
-    <state width="1237" height="18" key="GridCell.Tab.0.center" timestamp="1590675175506">
+    <state width="1237" height="106" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1590758157073" />
+    <state width="1237" height="106" key="GridCell.Tab.0.center" timestamp="1590758157072">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="18" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1590675175506" />
-    <state width="1237" height="18" key="GridCell.Tab.0.left" timestamp="1590675175505">
+    <state width="1237" height="106" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1590758157072" />
+    <state width="1237" height="106" key="GridCell.Tab.0.left" timestamp="1590758157072">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="18" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1590675175505" />
-    <state width="1237" height="18" key="GridCell.Tab.0.right" timestamp="1590675175506">
+    <state width="1237" height="106" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1590758157072" />
+    <state width="1237" height="106" key="GridCell.Tab.0.right" timestamp="1590758157072">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="18" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1590675175506" />
+    <state width="1237" height="106" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1590758157072" />
     <state width="1237" height="121" key="GridCell.Tab.1.bottom" timestamp="1590142978390">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

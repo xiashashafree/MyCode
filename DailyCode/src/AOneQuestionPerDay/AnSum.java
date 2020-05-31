@@ -39,7 +39,7 @@ public class AnSum {
             // 求 1...n 中取若干个数字和为 m, 能把问题拆解为
             // 求 2...n 中取若干给数字, 和为 m - 1
                 dfs(i + 1, count - i, n);
-                list.remove(list.size() - 1);
+               list.remove(list.size() - 1);//count != 0 此种方法不行，要原路删除
             }
         }
     }

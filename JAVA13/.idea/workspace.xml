@@ -22,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Jsp File" />
         <option value="Kotlin File" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -50,9 +50,11 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blogdemo/src/main/java/util" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gc_study/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,18 +70,34 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="model" />
+      <recent name="servlet" />
       <recent name="util" />
       <recent name="OJPratice" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JAVA13\gc_study\src" />
+      <recent name="E:\JAVA13\io-study\src\jmm" />
       <recent name="E:\JAVA13\blogdemo\src\main\java\util" />
       <recent name="E:\JAVA13\blogdemo" />
       <recent name="E:\JAVA13\servlet-blog\db" />
-      <recent name="E:\JAVA13\servlet-blog" />
-      <recent name="E:\JAVA13\thread-study\src" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Blog">
+    <configuration name="JVMStackLook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jmm.JVMStackLook" />
+      <module name="io-study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson1.Main2" />
       <module name="io-study" />
@@ -94,13 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.TestDemo" />
+    <configuration name="Parent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jmm.Parent" />
       <module name="io-study" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.*" />
+          <option name="PATTERN" value="jmm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,20 +133,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Z" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.Z" />
-      <module name="io-study" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,21 +332,21 @@
     </configuration>
     <list>
       <item itemvalue="Application.Client" />
-      <item itemvalue="Application.TestDemo" />
-      <item itemvalue="Application.Z" />
       <item itemvalue="Application.Main2" />
       <item itemvalue="Application.URLDecodeTest" />
+      <item itemvalue="Application.JVMStackLook" />
+      <item itemvalue="Application.Parent" />
       <item itemvalue="JUnit.DBUtilTest.testConnection" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.54" />
       <item itemvalue="Tomcat Server.Blog" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Parent" />
+        <item itemvalue="Application.JVMStackLook" />
         <item itemvalue="Application.URLDecodeTest" />
         <item itemvalue="JUnit.DBUtilTest.testConnection" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Z" />
-        <item itemvalue="Application.TestDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -423,6 +427,12 @@
       <workItem from="1589621165827" duration="1657000" />
       <workItem from="1589676042668" duration="12814000" />
       <workItem from="1589703516826" duration="3551000" />
+      <workItem from="1589783692734" duration="33000" />
+      <workItem from="1589800249440" duration="4992000" />
+      <workItem from="1589963767108" duration="7647000" />
+      <workItem from="1590133433510" duration="4642000" />
+      <workItem from="1591007443596" duration="1224000" />
+      <workItem from="1591104033018" duration="386000" />
     </task>
     <servers />
   </component>
@@ -454,18 +464,18 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="340" y="0" key="#blog.sql_(1)/0.0.1280.689@0.0.1280.689" timestamp="1589281242759" />
-    <state x="25" y="42" width="852" height="647" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589704834542">
+    <state x="25" y="42" width="852" height="647" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591104399287">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="25" y="42" width="852" height="647" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1589704834542" />
+    <state x="25" y="42" width="852" height="647" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1591104399287" />
     <state x="350" y="148" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589688826553">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="350" y="148" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689@0.0.1280.689" timestamp="1589688826553" />
-    <state x="107" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1589685192648">
+    <state x="107" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1590136146462">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="107" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1589685192648" />
+    <state x="107" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1590136146462" />
     <state x="156" y="0" width="1027" height="689" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1589281493457">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -482,74 +492,74 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="354" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.689@0.0.1280.689" timestamp="1587997690783" />
-    <state x="279" y="99" key="FileChooserDialogImpl" timestamp="1589361023729">
+    <state x="279" y="99" key="FileChooserDialogImpl" timestamp="1591104216200">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="279" y="99" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1589361023729" />
-    <state width="788" height="136" key="GridCell.Tab.0.bottom" timestamp="1589707784800">
+    <state x="279" y="99" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1591104216200" />
+    <state width="1003" height="13" key="GridCell.Tab.0.bottom" timestamp="1591007458170">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="788" height="136" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1589707784800" />
-    <state width="788" height="136" key="GridCell.Tab.0.center" timestamp="1589707784800">
+    <state width="1003" height="13" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1591007458170" />
+    <state width="1003" height="13" key="GridCell.Tab.0.center" timestamp="1591007458170">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="788" height="136" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1589707784800" />
-    <state width="788" height="136" key="GridCell.Tab.0.left" timestamp="1589707784799">
+    <state width="1003" height="13" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1591007458170" />
+    <state width="1003" height="13" key="GridCell.Tab.0.left" timestamp="1591007458170">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="788" height="136" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1589707784799" />
-    <state width="788" height="136" key="GridCell.Tab.0.right" timestamp="1589707784800">
+    <state width="1003" height="13" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1591007458170" />
+    <state width="1003" height="13" key="GridCell.Tab.0.right" timestamp="1591007458170">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="788" height="136" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1589707784800" />
-    <state width="788" height="136" key="GridCell.Tab.1.bottom" timestamp="1589707784800">
+    <state width="1003" height="13" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1591007458170" />
+    <state width="1003" height="13" key="GridCell.Tab.1.bottom" timestamp="1590140086367">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="788" height="136" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1589707784800" />
-    <state width="788" height="136" key="GridCell.Tab.1.center" timestamp="1589707784800">
+    <state width="1003" height="13" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1590140086367" />
+    <state width="1003" height="13" key="GridCell.Tab.1.center" timestamp="1590140086367">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="788" height="136" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1589707784800" />
-    <state width="788" height="136" key="GridCell.Tab.1.left" timestamp="1589707784800">
+    <state width="1003" height="13" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1590140086367" />
+    <state width="1003" height="13" key="GridCell.Tab.1.left" timestamp="1590140086367">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="788" height="136" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1589707784800" />
-    <state width="788" height="136" key="GridCell.Tab.1.right" timestamp="1589707784800">
+    <state width="1003" height="13" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1590140086367" />
+    <state width="1003" height="13" key="GridCell.Tab.1.right" timestamp="1590140086367">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="788" height="136" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1589707784800" />
-    <state width="788" height="136" key="GridCell.Tab.2.bottom" timestamp="1589707784801">
+    <state width="1003" height="13" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1590140086367" />
+    <state width="1003" height="13" key="GridCell.Tab.2.bottom" timestamp="1590140086368">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="788" height="136" key="GridCell.Tab.2.bottom/0.0.1280.689@0.0.1280.689" timestamp="1589707784801" />
-    <state width="788" height="136" key="GridCell.Tab.2.center" timestamp="1589707784800">
+    <state width="1003" height="13" key="GridCell.Tab.2.bottom/0.0.1280.689@0.0.1280.689" timestamp="1590140086368" />
+    <state width="1003" height="13" key="GridCell.Tab.2.center" timestamp="1590140086367">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="788" height="136" key="GridCell.Tab.2.center/0.0.1280.689@0.0.1280.689" timestamp="1589707784800" />
-    <state width="788" height="136" key="GridCell.Tab.2.left" timestamp="1589707784800">
+    <state width="1003" height="13" key="GridCell.Tab.2.center/0.0.1280.689@0.0.1280.689" timestamp="1590140086367" />
+    <state width="1003" height="13" key="GridCell.Tab.2.left" timestamp="1590140086367">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="788" height="136" key="GridCell.Tab.2.left/0.0.1280.689@0.0.1280.689" timestamp="1589707784800" />
-    <state width="788" height="136" key="GridCell.Tab.2.right" timestamp="1589707784801">
+    <state width="1003" height="13" key="GridCell.Tab.2.left/0.0.1280.689@0.0.1280.689" timestamp="1590140086367" />
+    <state width="1003" height="13" key="GridCell.Tab.2.right" timestamp="1590140086368">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="788" height="136" key="GridCell.Tab.2.right/0.0.1280.689@0.0.1280.689" timestamp="1589707784801" />
-    <state width="788" height="136" key="GridCell.Tab.3.bottom" timestamp="1589707784801">
+    <state width="1003" height="13" key="GridCell.Tab.2.right/0.0.1280.689@0.0.1280.689" timestamp="1590140086368" />
+    <state width="798" height="301" key="GridCell.Tab.3.bottom" timestamp="1590137462389">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="788" height="136" key="GridCell.Tab.3.bottom/0.0.1280.689@0.0.1280.689" timestamp="1589707784801" />
-    <state width="788" height="136" key="GridCell.Tab.3.center" timestamp="1589707784801">
+    <state width="798" height="301" key="GridCell.Tab.3.bottom/0.0.1280.689@0.0.1280.689" timestamp="1590137462389" />
+    <state width="798" height="301" key="GridCell.Tab.3.center" timestamp="1590137462389">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="788" height="136" key="GridCell.Tab.3.center/0.0.1280.689@0.0.1280.689" timestamp="1589707784801" />
-    <state width="788" height="136" key="GridCell.Tab.3.left" timestamp="1589707784801">
+    <state width="798" height="301" key="GridCell.Tab.3.center/0.0.1280.689@0.0.1280.689" timestamp="1590137462389" />
+    <state width="798" height="301" key="GridCell.Tab.3.left" timestamp="1590137462388">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="788" height="136" key="GridCell.Tab.3.left/0.0.1280.689@0.0.1280.689" timestamp="1589707784801" />
-    <state width="788" height="136" key="GridCell.Tab.3.right" timestamp="1589707784801">
+    <state width="798" height="301" key="GridCell.Tab.3.left/0.0.1280.689@0.0.1280.689" timestamp="1590137462388" />
+    <state width="798" height="301" key="GridCell.Tab.3.right" timestamp="1590137462389">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="788" height="136" key="GridCell.Tab.3.right/0.0.1280.689@0.0.1280.689" timestamp="1589707784801" />
+    <state width="798" height="301" key="GridCell.Tab.3.right/0.0.1280.689@0.0.1280.689" timestamp="1590137462389" />
     <state width="845" height="138" key="GridCell.Tab.4.bottom" timestamp="1588152247367">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -578,13 +588,13 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="11" y="0" width="1269" height="689" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1589704640266" />
-    <state x="0" y="0" key="new project wizard" timestamp="1589161034412">
+    <state x="0" y="0" key="new project wizard" timestamp="1591104257348">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="0" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1589161034412" />
-    <state x="303" y="9" width="672" height="678" key="search.everywhere.popup" timestamp="1589677574767">
+    <state x="0" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1591104257348" />
+    <state x="303" y="9" width="672" height="678" key="search.everywhere.popup" timestamp="1589801021656">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="303" y="9" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1589677574767" />
+    <state x="303" y="9" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1589801021656" />
   </component>
 </project>

@@ -19,6 +19,7 @@ public class StringInMemory {
     public void test2(){// 测试通过
         String s1 = "hello";
         String s2 = "hel" + "lo";
+        s2.intern();
         Assert.assertTrue(s1 == s2);
     }
 
@@ -53,5 +54,10 @@ public class StringInMemory {
         String s3 = "lo";
         String s4 = s2 + s3;
         Assert.assertTrue(s1 == s4);
+    }
+
+    @Test
+    public void test6(){
+
     }
 }

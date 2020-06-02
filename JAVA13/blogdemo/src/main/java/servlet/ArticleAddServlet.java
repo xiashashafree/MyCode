@@ -17,6 +17,7 @@ public class ArticleAddServlet extends AbstractBaseServlet {
     @Override
     public Object process(HttpServletRequest req, HttpServletResponse resp) throws Exception {
 
+        req.getSession();
         //从IO流中获取请求信息
         InputStream is = req.getInputStream();
         //文章新增：title content  useracount

@@ -54,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gc_study/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/thread-adv-study/src/main/java/free" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,21 +76,21 @@
       <recent name="OJPratice" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JAVA13\thread-adv-study\src\main\java\free" />
       <recent name="E:\JAVA13\gc_study\src" />
       <recent name="E:\JAVA13\io-study\src\jmm" />
       <recent name="E:\JAVA13\blogdemo\src\main\java\util" />
       <recent name="E:\JAVA13\blogdemo" />
-      <recent name="E:\JAVA13\servlet-blog\db" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Blog">
-    <configuration name="JVMStackLook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jmm.JVMStackLook" />
-      <module name="io-study" />
+  <component name="RunManager" selected="Application.DeadLock">
+    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="free.DeadLock" />
+      <module name="thread-adv-study" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jmm.*" />
+          <option name="PATTERN" value="free.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,13 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.Main2" />
+    <configuration name="JVMStackLook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jmm.JVMStackLook" />
       <module name="io-study" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.*" />
+          <option name="PATTERN" value="jmm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,21 +332,21 @@
     </configuration>
     <list>
       <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Main2" />
       <item itemvalue="Application.URLDecodeTest" />
       <item itemvalue="Application.JVMStackLook" />
       <item itemvalue="Application.Parent" />
       <item itemvalue="JUnit.DBUtilTest.testConnection" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.54" />
       <item itemvalue="Tomcat Server.Blog" />
+      <item itemvalue="Application.DeadLock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeadLock" />
         <item itemvalue="Application.Parent" />
         <item itemvalue="Application.JVMStackLook" />
         <item itemvalue="Application.URLDecodeTest" />
         <item itemvalue="JUnit.DBUtilTest.testConnection" />
-        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -433,6 +433,7 @@
       <workItem from="1590133433510" duration="4642000" />
       <workItem from="1591007443596" duration="1224000" />
       <workItem from="1591104033018" duration="386000" />
+      <workItem from="1591181255692" duration="1506000" />
     </task>
     <servers />
   </component>
@@ -492,26 +493,26 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="354" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.689@0.0.1280.689" timestamp="1587997690783" />
-    <state x="279" y="99" key="FileChooserDialogImpl" timestamp="1591104216200">
+    <state x="279" y="99" key="FileChooserDialogImpl" timestamp="1591181321579">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="279" y="99" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1591104216200" />
-    <state width="1003" height="13" key="GridCell.Tab.0.bottom" timestamp="1591007458170">
+    <state x="279" y="99" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1591181321579" />
+    <state width="1237" height="192" key="GridCell.Tab.0.bottom" timestamp="1591191380633">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1003" height="13" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1591007458170" />
-    <state width="1003" height="13" key="GridCell.Tab.0.center" timestamp="1591007458170">
+    <state width="1237" height="192" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1591191380633" />
+    <state width="1237" height="192" key="GridCell.Tab.0.center" timestamp="1591191380633">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1003" height="13" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1591007458170" />
-    <state width="1003" height="13" key="GridCell.Tab.0.left" timestamp="1591007458170">
+    <state width="1237" height="192" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1591191380633" />
+    <state width="1237" height="192" key="GridCell.Tab.0.left" timestamp="1591191380633">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1003" height="13" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1591007458170" />
-    <state width="1003" height="13" key="GridCell.Tab.0.right" timestamp="1591007458170">
+    <state width="1237" height="192" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1591191380633" />
+    <state width="1237" height="192" key="GridCell.Tab.0.right" timestamp="1591191380633">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1003" height="13" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1591007458170" />
+    <state width="1237" height="192" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1591191380633" />
     <state width="1003" height="13" key="GridCell.Tab.1.bottom" timestamp="1590140086367">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -588,10 +589,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="11" y="0" width="1269" height="689" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1589704640266" />
-    <state x="0" y="0" key="new project wizard" timestamp="1591104257348">
+    <state x="0" y="0" key="new project wizard" timestamp="1591181387551">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="0" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1591104257348" />
+    <state x="0" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1591181387551" />
     <state x="303" y="9" width="672" height="678" key="search.everywhere.popup" timestamp="1589801021656">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

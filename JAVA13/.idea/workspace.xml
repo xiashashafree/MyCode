@@ -54,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/thread-adv-study/src/main/java/free" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DailyCode" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -335,10 +335,10 @@
       <item itemvalue="Application.URLDecodeTest" />
       <item itemvalue="Application.JVMStackLook" />
       <item itemvalue="Application.Parent" />
+      <item itemvalue="Application.DeadLock" />
       <item itemvalue="JUnit.DBUtilTest.testConnection" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.54" />
       <item itemvalue="Tomcat Server.Blog" />
-      <item itemvalue="Application.DeadLock" />
     </list>
     <recent_temporary>
       <list>
@@ -434,6 +434,9 @@
       <workItem from="1591007443596" duration="1224000" />
       <workItem from="1591104033018" duration="386000" />
       <workItem from="1591181255692" duration="1506000" />
+      <workItem from="1591279295869" duration="375000" />
+      <workItem from="1591320178804" duration="3208000" />
+      <workItem from="1591365982201" duration="226000" />
     </task>
     <servers />
   </component>
@@ -493,10 +496,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="354" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.689@0.0.1280.689" timestamp="1587997690783" />
-    <state x="279" y="99" key="FileChooserDialogImpl" timestamp="1591181321579">
+    <state x="279" y="99" key="FileChooserDialogImpl" timestamp="1591366208390">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="279" y="99" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1591181321579" />
+    <state x="279" y="99" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1591366208390" />
     <state width="1237" height="192" key="GridCell.Tab.0.bottom" timestamp="1591191380633">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -593,9 +596,9 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="0" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1591181387551" />
-    <state x="303" y="9" width="672" height="678" key="search.everywhere.popup" timestamp="1589801021656">
+    <state x="303" y="9" width="672" height="678" key="search.everywhere.popup" timestamp="1591320750425">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="303" y="9" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1589801021656" />
+    <state x="303" y="9" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1591320750425" />
   </component>
 </project>

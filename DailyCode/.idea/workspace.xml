@@ -15,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -63,7 +64,7 @@
       <recent name="E:\DailyCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
+  <component name="RunManager" selected="Application.MaxContinuousSubarray">
     <configuration name="把数组排成最小数" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.把数组排成最小数" />
       <module name="DailyCode" />
@@ -134,13 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.Sleep" />
+    <configuration name="MaxContinuousSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.dp.MaxContinuousSubarray" />
       <module name="DailyCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AOneQuestionPerDay.*" />
+          <option name="PATTERN" value="Algorithm.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,8 +149,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WakeUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.WakeUp" />
+    <configuration name="Sleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.Sleep" />
       <module name="DailyCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -189,19 +190,19 @@
     <list>
       <item itemvalue="Application.把数组排成最小数" />
       <item itemvalue="Application.Main1" />
-      <item itemvalue="Application.WakeUp" />
       <item itemvalue="Application.LeftRightMaxValue" />
       <item itemvalue="Application.AnSum" />
       <item itemvalue="Application.Sleep" />
       <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Application.MaxContinuousSubarray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxContinuousSubarray" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.Sleep" />
         <item itemvalue="Application.AnSum" />
         <item itemvalue="Application.LeftRightMaxValue" />
-        <item itemvalue="Application.WakeUp" />
       </list>
     </recent_temporary>
   </component>
@@ -319,6 +320,8 @@
       <workItem from="1591279675964" duration="1912000" />
       <workItem from="1591320097956" duration="70000" />
       <workItem from="1591366212765" duration="112000" />
+      <workItem from="1591404110883" duration="298000" />
+      <workItem from="1591453788803" duration="591000" />
     </task>
     <servers />
   </component>
@@ -330,26 +333,26 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1588321657095" />
-    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1591320168917">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1591404141679">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1591320168917" />
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1591104024446">
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1591404141679" />
+    <state width="1237" height="150" key="GridCell.Tab.0.bottom" timestamp="1591454392685">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1591104024446" />
-    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1591104024445">
+    <state width="1237" height="150" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1591454392685" />
+    <state width="1237" height="150" key="GridCell.Tab.0.center" timestamp="1591454392685">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1591104024445" />
-    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1591104024444">
+    <state width="1237" height="150" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1591454392685" />
+    <state width="1237" height="150" key="GridCell.Tab.0.left" timestamp="1591454392685">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1591104024444" />
-    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1591104024445">
+    <state width="1237" height="150" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1591454392685" />
+    <state width="1237" height="150" key="GridCell.Tab.0.right" timestamp="1591454392685">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1591104024445" />
+    <state width="1237" height="150" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1591454392685" />
     <state width="1237" height="226" key="GridCell.Tab.1.bottom" timestamp="1590885068836">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -366,6 +369,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="226" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1590885068835" />
+    <state x="0" y="0" key="new project wizard" timestamp="1591404424236">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="0" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1591404424236" />
     <state x="298" y="158" key="run.anything.popup" timestamp="1588947131549">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

@@ -11,21 +11,22 @@
         <property name="age" value="8"/>
     </bean>
 <!--    通过有参的构造方法生成对象-->
-    <bean id="duck2" class="free.model.Duck">
-        <constructor-arg name="name" value="丑小鸭"/>
-        <constructor-arg name="age" value="2"/>
-    </bean>
-<!--    引用已有的bean对象：ref-->
-    <bean id="duckShop" class="free.model.DuckShop">
-        <property name="ducks">
-            <list>
-                <ref bean="duck1"/>
-                <ref bean="duck2"/>
-            </list>
-        </property>
-    </bean>
+<!--    <bean id="duck2" class="free.model.Duck">-->
+<!--        <constructor-arg name="name" value="丑小鸭"/>-->
+<!--        <constructor-arg name="age" value="2"/>-->
+<!--    </bean>-->
+<!--&lt;!&ndash;    引用已有的bean对象：ref&ndash;&gt;-->
+<!--    <bean id="duckShop" class="free.model.DuckShop">-->
+<!--        <property name="ducks">-->
+<!--            <list>-->
+<!--                <ref bean="duck1"/>-->
+<!--                <ref bean="duck2"/>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--    </bean>-->
 
-    <bean id="duck3" class="free.model.DuckFactory">
-        
-    </bean>
+<!--    <bean id="duck3" class="free.model.DuckFactory">-->
+<!--        -->
+<!--    </bean>-->
+    <bean id ="test" class="free.model.Test"/>
 </beans>

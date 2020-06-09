@@ -20,21 +20,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>compare</find>
-      <find>peek</find>
-      <find>Priority</find>
-      <find>poll</find>
-      <find>hash</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-    <dirStrings>
-      <dir>E:\DailyCode</dir>
-    </dirStrings>
-  </component>
   <component name="ProjectId" id="1azGceZ86dLuVKgnbMj3BpkZOf4" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
@@ -322,6 +307,8 @@
       <workItem from="1591366212765" duration="112000" />
       <workItem from="1591404110883" duration="298000" />
       <workItem from="1591453788803" duration="591000" />
+      <workItem from="1591577524939" duration="3259000" />
+      <workItem from="1591708516864" duration="2581000" />
     </task>
     <servers />
   </component>
@@ -333,6 +320,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1588321657095" />
+    <state x="193" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591708540452">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="193" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.689@0.0.1280.689" timestamp="1591708540452" />
     <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1591404141679">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -377,10 +368,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="298" y="158" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1588947131549" />
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1591102735993">
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1591708543440">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1591102735993" />
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1591708543440" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

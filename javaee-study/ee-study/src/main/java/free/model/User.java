@@ -13,5 +13,5 @@ import java.util.Date;
 public class User {
     private String username;
     private String password;
-    private Date brithday;
+    private Date birthday;
 }

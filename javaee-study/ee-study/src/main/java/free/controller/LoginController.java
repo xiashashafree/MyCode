@@ -4,19 +4,22 @@ import free.model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.util.Date;
 
 @Controller
 @RequestMapping("/1")
 public class LoginController {
     @RequestMapping(value="/login")
-    public String login(){
-//        if(i == 1){
-//            return "redirect:/index.html";
-//        }else{
-//            return "forward:/index.html";
-//        }
-    return "/login.html";
+    public String login(Integer i){
+        if(i == 1){
+            return "redirect:/index.html";//重定向
+        }else{
+            return "forward:/index.html";
+        }
+
     }
 
 
@@ -53,23 +56,22 @@ public class LoginController {
         user.setBirthday(new Date());
         return user;
     }
-//    @RequestMapping(value="/login5",method = RequestMethod.POST)
-//    @ResponseBody
-//    public Object login5(HttpServletRequest request, HttpServletResponse response,
-//                         User u){
-//
-//        if("abc".equals(u.getUsername()) && "123".equals(u.getPassword())) {
-//            HttpSession session = request.getSession(false);
-//            session.setAttribute("user",u);
-//            User user = new User();
-//            user.setUsername("小龙虾");
-//            user.setPassword("123");
-//            user.setBirthday(new Date());
-//            return user;
-//        }
-//
-//        return new RuntimeException("登录不成功");
-//
-//
-//    }
+    @RequestMapping(value="/login5",method = RequestMethod.POST)
+    @ResponseBody
+    //接受json格式的请求数据
+    public Object login5(HttpServletRequest request, HttpServletResponse response
+                           ,  User u){
+
+        if("abc".equals(u.getUsername()) &&  "123".equals(u.getPassword())){
+            HttpSession session = request.getSession();
+            session.setAttribute("user",u);
+            User user = new User();
+            user.setUsername("小龙虾");
+            user.setPassword("123");
+            user.setBirthday(new Date());
+            return user;
+        }
+        throw new RuntimeException("登录不成功");
+
+    }
 }

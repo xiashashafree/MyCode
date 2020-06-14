@@ -14,4 +14,5 @@ public class Response {
     private String message;//错误信息
     private String stackTrack;
     private Object data;//数据
+
 }

@@ -1,22 +1,22 @@
 package free.config;
 
-import org.springframework.core.MethodParameter;
-import org.springframework.http.MediaType;
-import org.springframework.http.server.ServerHttpRequest;
-import org.springframework.http.server.ServerHttpResponse;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
-
-public class ResponseAdvisor implements ResponseBodyAdvice {
-    @Override
-    public boolean supports(MethodParameter returnType, Class converterType) {
-        //返回true，表示响应数据时，限制性beforeBodyWrite,false不执行
-
-        return returnType.getMethod().getAnnotations(ResponseBody.class) != null;
-    }
-
-    @Override
-    public Object beforeBodyWrite(Object o, MethodParameter methodParameter, MediaType mediaType, Class aClass, ServerHttpRequest serverHttpRequest, ServerHttpResponse serverHttpResponse) {
-        return null;
-    }
+//@ControllerAdvice
+public class ResponseAdvisor {
+//        implements ResponseBodyAdvice {
+//    @Override
+//    public boolean supports(MethodParameter returnType, Class aClass) {
+//        //返回true表示请求体响应数据时，先执行beforeBodyWrite，false就不执行
+//        //获取请求方法对象，判断Controller方法上是否有@ResponseBody
+//        return returnType.getMethod().
+//                getAnnotation(ResponseBody.class) != null;
+//    }
+//
+//    //body为请求方法执行完之后，返回的对象
+//    @Override
+//    public Object beforeBodyWrite(Object body, MethodParameter methodParameter, MediaType mediaType, Class aClass, ServerHttpRequest serverHttpRequest, ServerHttpResponse serverHttpResponse) {
+//        Response resp = new Response();
+//        resp.setSuccess(true);
+//        resp.setData(body);
+//        return resp;
+//    }
 }

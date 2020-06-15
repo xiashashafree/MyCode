@@ -27,6 +27,12 @@
                                  会再次依赖spring-framework中基本依赖包，aop相关依赖包，web相关依赖包，
                                  还会引入其他如json，tomcat，validation等依赖 -->
         <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib-nodep</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
@@ -34,11 +40,11 @@
 <!--        &lt;!&ndash; mybatis-spring-boot-starter: Mybatis框架在SpringBoot中集成的依赖包，-->
 <!--                                Mybatis是一种数据库对象关系映射Object-Relationl Mapping（ORM）框架，-->
 <!--                                其他还有如Hibernate等 &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>org.mybatis.spring.boot</groupId>-->
-<!--            <artifactId>mybatis-spring-boot-starter</artifactId>-->
-<!--            <version>2.1.1</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.1.1</version>
+        </dependency>
 
 <!--        &lt;!&ndash; Mybatis分页插件：支持任何复杂的单表、多表分页 &ndash;&gt;-->
 <!--        <dependency>-->

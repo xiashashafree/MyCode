@@ -49,7 +49,7 @@
       <recent name="E:\DailyCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxContinuousSubarray">
+  <component name="RunManager" selected="Application.IslandNumber">
     <configuration name="把数组排成最小数" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.把数组排成最小数" />
       <module name="DailyCode" />
@@ -92,13 +92,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftRightMaxValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.LeftRightMaxValue" />
+    <configuration name="IslandNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.DFS.IslandNumber" />
       <module name="DailyCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AOneQuestionPerDay.*" />
+          <option name="PATTERN" value="Algorithm.DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,7 +126,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.dp.*" />
+          <option name="PATTERN" value="Algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,19 +175,19 @@
     <list>
       <item itemvalue="Application.把数组排成最小数" />
       <item itemvalue="Application.Main1" />
-      <item itemvalue="Application.LeftRightMaxValue" />
       <item itemvalue="Application.AnSum" />
       <item itemvalue="Application.Sleep" />
       <item itemvalue="Application.HeapSort" />
       <item itemvalue="Application.MaxContinuousSubarray" />
+      <item itemvalue="Application.IslandNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IslandNumber" />
         <item itemvalue="Application.MaxContinuousSubarray" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.Sleep" />
         <item itemvalue="Application.AnSum" />
-        <item itemvalue="Application.LeftRightMaxValue" />
       </list>
     </recent_temporary>
   </component>
@@ -310,6 +310,9 @@
       <workItem from="1591577524939" duration="3259000" />
       <workItem from="1591708516864" duration="2581000" />
       <workItem from="1592053379200" duration="153000" />
+      <workItem from="1592140564538" duration="549000" />
+      <workItem from="1592207486279" duration="3560000" />
+      <workItem from="1592315066451" duration="212000" />
     </task>
     <servers />
   </component>
@@ -317,34 +320,34 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1588321657095">
+    <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1592207698760">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1588321657095" />
+    <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1592207698760" />
     <state x="193" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591708540452">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="193" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.689@0.0.1280.689" timestamp="1591708540452" />
-    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1591404141679">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1592217998672">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1591404141679" />
-    <state width="1237" height="150" key="GridCell.Tab.0.bottom" timestamp="1591454392685">
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1592217998672" />
+    <state width="1237" height="150" key="GridCell.Tab.0.bottom" timestamp="1592218000731">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="150" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1591454392685" />
-    <state width="1237" height="150" key="GridCell.Tab.0.center" timestamp="1591454392685">
+    <state width="1237" height="150" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1592218000731" />
+    <state width="1237" height="150" key="GridCell.Tab.0.center" timestamp="1592218000731">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="150" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1591454392685" />
-    <state width="1237" height="150" key="GridCell.Tab.0.left" timestamp="1591454392685">
+    <state width="1237" height="150" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1592218000731" />
+    <state width="1237" height="150" key="GridCell.Tab.0.left" timestamp="1592218000730">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="150" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1591454392685" />
-    <state width="1237" height="150" key="GridCell.Tab.0.right" timestamp="1591454392685">
+    <state width="1237" height="150" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1592218000730" />
+    <state width="1237" height="150" key="GridCell.Tab.0.right" timestamp="1592218000731">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="150" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1591454392685" />
+    <state width="1237" height="150" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1592218000731" />
     <state width="1237" height="226" key="GridCell.Tab.1.bottom" timestamp="1590885068836">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

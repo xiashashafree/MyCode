@@ -30,7 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javaee-study" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,23 +49,9 @@
       <recent name="E:\DailyCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IslandNumber">
+  <component name="RunManager" selected="Application.MainFunction">
     <configuration name="把数组排成最小数" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.把数组排成最小数" />
-      <module name="DailyCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AOneQuestionPerDay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.AnSum" />
       <module name="DailyCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -120,6 +106,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainFunction" />
+      <module name="DailyCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaxContinuousSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm.dp.MaxContinuousSubarray" />
       <module name="DailyCode" />
@@ -134,13 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.Sleep" />
+    <configuration name="Parse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.Parse" />
       <module name="DailyCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AOneQuestionPerDay.*" />
+          <option name="PATTERN" value="homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,19 +169,19 @@
     <list>
       <item itemvalue="Application.把数组排成最小数" />
       <item itemvalue="Application.Main1" />
-      <item itemvalue="Application.AnSum" />
-      <item itemvalue="Application.Sleep" />
       <item itemvalue="Application.HeapSort" />
       <item itemvalue="Application.MaxContinuousSubarray" />
       <item itemvalue="Application.IslandNumber" />
+      <item itemvalue="Application.Parse" />
+      <item itemvalue="Application.MainFunction" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainFunction" />
+        <item itemvalue="Application.Parse" />
         <item itemvalue="Application.IslandNumber" />
         <item itemvalue="Application.MaxContinuousSubarray" />
         <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.Sleep" />
-        <item itemvalue="Application.AnSum" />
       </list>
     </recent_temporary>
   </component>
@@ -313,6 +307,8 @@
       <workItem from="1592140564538" duration="549000" />
       <workItem from="1592207486279" duration="3560000" />
       <workItem from="1592315066451" duration="212000" />
+      <workItem from="1592360639647" duration="8909000" />
+      <workItem from="1592390867463" duration="404000" />
     </task>
     <servers />
   </component>
@@ -324,46 +320,46 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1592207698760" />
-    <state x="193" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591708540452">
+    <state x="193" y="245" width="443" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592383001511">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="193" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.689@0.0.1280.689" timestamp="1591708540452" />
-    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1592217998672">
+    <state x="193" y="245" width="443" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.689@0.0.1280.689" timestamp="1592383001511" />
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1592391272938">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1592217998672" />
-    <state width="1237" height="150" key="GridCell.Tab.0.bottom" timestamp="1592218000731">
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1592391272938" />
+    <state width="1222" height="2" key="GridCell.Tab.0.bottom" timestamp="1592385148444">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="150" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1592218000731" />
-    <state width="1237" height="150" key="GridCell.Tab.0.center" timestamp="1592218000731">
+    <state width="1222" height="2" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1592385148444" />
+    <state width="1222" height="2" key="GridCell.Tab.0.center" timestamp="1592385148444">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="150" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1592218000731" />
-    <state width="1237" height="150" key="GridCell.Tab.0.left" timestamp="1592218000730">
+    <state width="1222" height="2" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1592385148444" />
+    <state width="1222" height="2" key="GridCell.Tab.0.left" timestamp="1592385148443">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="150" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1592218000730" />
-    <state width="1237" height="150" key="GridCell.Tab.0.right" timestamp="1592218000731">
+    <state width="1222" height="2" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1592385148443" />
+    <state width="1222" height="2" key="GridCell.Tab.0.right" timestamp="1592385148444">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="150" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1592218000731" />
-    <state width="1237" height="226" key="GridCell.Tab.1.bottom" timestamp="1590885068836">
+    <state width="1222" height="2" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1592385148444" />
+    <state width="1222" height="2" key="GridCell.Tab.1.bottom" timestamp="1592385148445">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="226" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1590885068836" />
-    <state width="1237" height="226" key="GridCell.Tab.1.center" timestamp="1590885068835">
+    <state width="1222" height="2" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1592385148445" />
+    <state width="1222" height="2" key="GridCell.Tab.1.center" timestamp="1592385148444">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="226" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1590885068835" />
-    <state width="1237" height="226" key="GridCell.Tab.1.left" timestamp="1590885068835">
+    <state width="1222" height="2" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1592385148444" />
+    <state width="1222" height="2" key="GridCell.Tab.1.left" timestamp="1592385148444">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="226" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1590885068835" />
-    <state width="1237" height="226" key="GridCell.Tab.1.right" timestamp="1590885068835">
+    <state width="1222" height="2" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1592385148444" />
+    <state width="1222" height="2" key="GridCell.Tab.1.right" timestamp="1592385148444">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="226" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1590885068835" />
+    <state width="1222" height="2" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1592385148444" />
     <state x="0" y="0" key="new project wizard" timestamp="1591404424236">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

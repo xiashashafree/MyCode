@@ -11,6 +11,7 @@ public class ArticleService {
     @Resource
     private ArticleMapper articleMapper;
 
+
     public Article queryById(Integer id) {
         return articleMapper.selectByPrimaryKey(id);
     }

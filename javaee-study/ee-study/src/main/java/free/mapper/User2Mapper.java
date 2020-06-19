@@ -1,10 +1,9 @@
 package free.mapper;
 
 import free.model.User2;
-import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
-@Mapper
+
 public interface User2Mapper {
     int deleteByPrimaryKey(Integer id);
 

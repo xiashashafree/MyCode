@@ -29,8 +29,10 @@ public class ExceptionAdvisor {
     @ExceptionHandler(Exception.class)//Exception.class ->拦截的异常类
     public String handle(HttpServletResponse response){
         try {//重定向到error.html
-            response.sendRedirect("/error.html");
+
+            response.sendRedirect("/index.html");
         } catch (IOException e) {
+            System.out.println(e.getMessage());
             e.printStackTrace();
         }
         return null;

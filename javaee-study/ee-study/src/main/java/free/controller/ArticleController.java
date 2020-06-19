@@ -14,7 +14,15 @@ public class ArticleController {
 
     @RequestMapping("/query/{id}")
     public Object queryById(@PathVariable("id") Integer id){
-        Article article = articleService.queryById(id);
-        return article;
+        Article article=null;
+        try {
+            article = articleService.queryById(id);
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        }finally {
+            return article;
+        }
     }
 }

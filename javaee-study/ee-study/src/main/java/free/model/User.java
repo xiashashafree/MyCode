@@ -5,11 +5,9 @@ import lombok.Setter;
 import lombok.ToString;
 
 import java.util.Date;
-
-@Getter
 @Setter
+@Getter
 @ToString
-
 public class User {
     private String username;
     private String password;

@@ -49,7 +49,7 @@
       <recent name="E:\DailyCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainFunction">
+  <component name="RunManager" selected="Application.PowerSet">
     <configuration name="把数组排成最小数" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AOneQuestionPerDay.把数组排成最小数" />
       <module name="DailyCode" />
@@ -57,20 +57,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="AOneQuestionPerDay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Review.HeapSort" />
-      <module name="DailyCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,6 +128,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PowerSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.DFS.PowerSet" />
+      <module name="DailyCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.DFS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -169,19 +169,19 @@
     <list>
       <item itemvalue="Application.把数组排成最小数" />
       <item itemvalue="Application.Main1" />
-      <item itemvalue="Application.HeapSort" />
       <item itemvalue="Application.MaxContinuousSubarray" />
       <item itemvalue="Application.IslandNumber" />
       <item itemvalue="Application.Parse" />
       <item itemvalue="Application.MainFunction" />
+      <item itemvalue="Application.PowerSet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PowerSet" />
         <item itemvalue="Application.MainFunction" />
         <item itemvalue="Application.Parse" />
         <item itemvalue="Application.IslandNumber" />
         <item itemvalue="Application.MaxContinuousSubarray" />
-        <item itemvalue="Application.HeapSort" />
       </list>
     </recent_temporary>
   </component>
@@ -313,6 +313,8 @@
       <workItem from="1592556811992" duration="53000" />
       <workItem from="1592662805016" duration="1343000" />
       <workItem from="1592748048672" duration="2155000" />
+      <workItem from="1592791592204" duration="925000" />
+      <workItem from="1592792824787" duration="358000" />
     </task>
     <servers />
   </component>
@@ -332,42 +334,42 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1592556864060" />
-    <state width="1222" height="2" key="GridCell.Tab.0.bottom" timestamp="1592385148444">
+    <state width="1237" height="4" key="GridCell.Tab.0.bottom" timestamp="1592792534290">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="2" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1592385148444" />
-    <state width="1222" height="2" key="GridCell.Tab.0.center" timestamp="1592385148444">
+    <state width="1237" height="4" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1592792534290" />
+    <state width="1237" height="4" key="GridCell.Tab.0.center" timestamp="1592792534290">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="2" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1592385148444" />
-    <state width="1222" height="2" key="GridCell.Tab.0.left" timestamp="1592385148443">
+    <state width="1237" height="4" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1592792534290" />
+    <state width="1237" height="4" key="GridCell.Tab.0.left" timestamp="1592792534289">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="2" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1592385148443" />
-    <state width="1222" height="2" key="GridCell.Tab.0.right" timestamp="1592385148444">
+    <state width="1237" height="4" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1592792534289" />
+    <state width="1237" height="4" key="GridCell.Tab.0.right" timestamp="1592792534290">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="2" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1592385148444" />
-    <state width="1222" height="2" key="GridCell.Tab.1.bottom" timestamp="1592385148445">
+    <state width="1237" height="4" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1592792534290" />
+    <state width="1237" height="4" key="GridCell.Tab.1.bottom" timestamp="1592792534291">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="2" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1592385148445" />
-    <state width="1222" height="2" key="GridCell.Tab.1.center" timestamp="1592385148444">
+    <state width="1237" height="4" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1592792534291" />
+    <state width="1237" height="4" key="GridCell.Tab.1.center" timestamp="1592792534291">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="2" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1592385148444" />
-    <state width="1222" height="2" key="GridCell.Tab.1.left" timestamp="1592385148444">
+    <state width="1237" height="4" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1592792534291" />
+    <state width="1237" height="4" key="GridCell.Tab.1.left" timestamp="1592792534290">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="2" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1592385148444" />
-    <state width="1222" height="2" key="GridCell.Tab.1.right" timestamp="1592385148444">
+    <state width="1237" height="4" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1592792534290" />
+    <state width="1237" height="4" key="GridCell.Tab.1.right" timestamp="1592792534291">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1222" height="2" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1592385148444" />
-    <state x="0" y="0" key="new project wizard" timestamp="1591404424236">
+    <state width="1237" height="4" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1592792534291" />
+    <state x="0" y="0" key="new project wizard" timestamp="1592793185853">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="0" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1591404424236" />
+    <state x="0" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1592793185853" />
     <state x="298" y="158" key="run.anything.popup" timestamp="1588947131549">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
